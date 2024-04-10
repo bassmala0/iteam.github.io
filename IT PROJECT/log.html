@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOG IN</title>
+    <link rel="stylesheet" href="style page.css">
+</head>
+<body>
+    <div class="contener">
+        <div class="form-box">
+            <h1 id="title">SIGN UP</h1>
+            <form >
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <img src="./img/user.png" width ="20" height="20" alt="" class="userIcon">
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field" id="emailField" >
+                        <img src="./img/email.png" width ="20" height="20" alt="" class="emailIcon">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-field" id="passwordField">
+                        <img src="img/password.png"  width ="20" height="20" alt="" class="passwordIcon">
+                        <input type="password" placeholder="Password">
+                    </div>
+                    <p>Lost password <a href="#">Click Here!</a></p>
+                </div>
+                <div class="button-field">
+                    <button type="button" id="signUpButton">SIGN UP</button>
+                    <button type="button" id="signInButton" class="disable">SIGN IN</button>
+                    <a href="Home page.html">
+                    <button type="button" id="enter" class="enterIN"  onclick="openHomePage()">ENTER</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let signUpButton = document.getElementById('signUpButton');
+            let signInButton = document.getElementById('signInButton');
+            let nameField = document.getElementById('nameField');
+            let title = document.getElementById('title');
+            let enter = document.getElementById('enter');
+            let emailField =document.getElementById('emailField');
+            let passwordField = document.getElementById('passwordField');
+            
+            signInButton.onclick = function() {
+                nameField.style.maxHeight = "0";
+                title.innerHTML = "SIGN IN";
+                signUpButton.classList.add("disable");
+                signInButton.classList.remove("disable");
+            }
+            signUpButton.onclick = function() {
+                nameField.style.maxHeight = "60px";
+                title.innerHTML = "SIGN UP";
+                signUpButton.classList.remove("disable");
+                signInButton.classList.add("disable");
+            }
+        });
+
+    </script>       
+</body>
+</html>
