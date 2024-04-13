@@ -1,0 +1,385 @@
+/* the main structures*/
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #a5855f;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*the body structures*/
+body,
+header {
+    background-image: url(IMG-20240409-WA0067.jpg);
+    padding: 10px;
+    position: relative;
+    top: -10px;
+
+}
+
+/*the header*/
+.head {
+    text-align: center;
+
+}
+
+/*the topic*/
+.head h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/*inside the blocks structures*/
+
+.row {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading {
+    float: top right;
+}
+
+.row1 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage1 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading1 {
+    float: top right;
+}
+
+.row2 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage2 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading2 {
+    float: top right;
+}
+
+.row3 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage3 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading3 {
+    float: top right;
+}
+
+.row4 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage4 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading4 {
+    float: top right;
+}
+
+.row5 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage5 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading5 {
+    float: top right;
+}
+
+.row6 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage6 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading6 {
+    float: top right;
+}
+
+.row7 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage7 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading7 {
+    float: top right;
+}
+
+.row8 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage8 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading8 {
+    float: top right;
+}
+
+.row9 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage9 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading9 {
+    float: top right;
+}
+
+.row10 {
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.myimage10 {
+    float: left;
+    width: 50%;
+    height: 50%;
+    padding: 0px 5px;
+}
+
+.heading10 {
+    float: top right;
+}
+
+/*outside the blocks structures*/
+.row,
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9,
+.row10 {
+    width: 1000px;
+    background-color: rgb(87, 63, 41);
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    clear: both;
+}
+
+/*the photos*/
+.myimage,
+.myimage1,
+.myimage2,
+.myimage3,
+.myimage4,
+.myimage5,
+.myimage6,
+.myimage7,
+.myimage8,
+.myimage9,
+.myimage10 {
+    height: 40%;
+    width: 40%;
+}
+
+/*the hover for every block*/
+.row :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row1 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row2 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+
+.row3 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row4 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row5 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row6 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row7 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row8 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row9 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+.row10 :hover {
+    background-color: rgb(87, 63, 41);
+}
+
+iframe {
+    position: absolute;
+    top: 200px;
+    /* Adjust as needed */
+    right: 0;
+    /* Place iframe on the very right */
+    width: 300px;
+    /* Adjust width as needed */
+    height: 100%;
+    /* Adjust height as needed */
+    background-color: whitesmoke;
+}
+
+/*the search*/
+.item {
+    float: inline-end;
+    background-color: #a5855f;
+    border-radius: 10%;
+}
+
+/*the stars*/
+.star {
+    font-size: 19px;
+    /* Adjust size as needed */
+    color: gold;
+}
+
+nav
+
+/*top bar*/
+    {
+    background-color: #fff;
+    color: aliceblue;
+    padding: 20px 40px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.find
+
+/*search bar*/
+    {
+    display: flex;
+    align-items: center;
+    background-color: #b08968;
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder {
+    color: white;
+}
+
+.navItem button
+
+/*log in button*/
+    {
+    font-size: 20px;
+    border-bottom: 2px solid #7f5539;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.menuItem
+
+/*control the button dis*/
+    {
+    color: rgb(0, 0, 0);
+    background: transparent;
+    margin-right: 50px;
+    cursor: pointer;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    transition: color 0.4s;
+}
