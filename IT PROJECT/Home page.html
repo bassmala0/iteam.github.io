@@ -7,39 +7,46 @@
     <title>art..h</title>
     <link rel="stylesheet" href="style page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"s>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
     <nav>
         <div class="navTop">
-            <div class="navItem">
+            <div class="navItem"><!--logo-->
                 <a href="Home page.html"><img src="./img/logo.jpeg" width ="140" height="75" alt="logo">
                 </a>
                 
             </div>
-            <div class="navItem">
+            <div class="navItem"><!--search bar-->
                 <di class="find">
                     <input type="text" placeholder="search..." class="searchInput">
                     <img src="./img/search.png"width ="20" height="20" alt="" class="searchIcon">
                 </di>
             </div>
-            <div class="navItem">
+            <div class="navItem"><!--log button-->
                 <a href="log.html">
                 <button class="log" onclick="openLog()">LOG IN</button></a>
             </div>
         </div>
         
-        <div class="navBottom">
-            <button class="menuItem" id="item1">STATUES</button>
-            <button class="menuItem" id="item2">ARCHITECTURE</button>
-            <button class="menuItem" id="item3">MUSEUMS</button>
-            <button class="menuItem" id="item4">JEWELLERY</button>
-            <button class="menuItem" id="item5">PANELS</button>
-            <button class="menuItem" id="item6">IN SELL</button>
-            <button class="menuItem" id="item7">ABOUT US</button>
+        <div class="navBottom"><!--menu buttoms-->
+            <a href=""><button class="menuItem" id="item1">STATUES</button></a>
+            <a href=""><button class="menuItem" id="item2">ARCHITECTURE</button></a>
+            <a href=""><button class="menuItem" id="item3">MUSEUMS</button></a>
+            <a href=""><button class="menuItem" id="item4">JEWELLERY</button></a>
+            <a href=""><button class="menuItem" id="item5">PANELS</button></a>
+            <a href=""><button class="menuItem" id="item6">IN SELL</button></a>
+            <a href=""><button class="menuItem" id="item7">ABOUT US</button>
         </div>
 
     </nav>
-    <div class="sliderr">
+    <div class="sliderr"><!--slider photos-->
         <div class="slides">
             <img class="slide" src="./img/slide1.jpeg" alt="david by michelangelo">
             <img class="slide" src="./img/slide2.jpeg" alt="pyramids by the egyptian">
@@ -62,10 +69,18 @@
             while empowering artists with the facilities,
             environment and experience to excel in their medium and enrich their lives.
         </h2>
+        <h1>
+            here we share with you a talk for our Inspirational
+            Jourdan Peterson talking about the importance of art.
+        </h1>
         </pre>
+        <div class="video-container">
+            <video controls src="img/Jordan Peterson_ Why You Need Art in Your Life.mp4" width="600" height="300">
+            </video>
+        </div>    
     </div>
     
-    <div class="review-container">
+    <div class="review-container"><!--comments-->
         <div class="review">
             <div class="inner">
                 <h1>Review</h1>
@@ -102,8 +117,40 @@
                 </div>
             </div>
         </div>
-        <iframe src="https://www.britannica.com/art/visual-arts" width="250" height="750" class="side-iframe"></iframe>
+        <aside>
+            <iframe src="https://www.britannica.com/art/visual-arts" width="250" height="700" class="side-iframe"></iframe>
+        </aside>
     </div>
-    
+
+    <footer class="footer"><!--footer-->
+        <div class="footer-container">
+            <div class="footer-row">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Our service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Get Help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Returns</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
