@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="payment.css">
+    <link rel="icon" href="Logo.png">
+    <title>Nile.eg | Checkout</title>
+</head>
+
+<body>
+    <nav>
+        <img src="mainLogo.png" width="90px">
+        <h1>Checkout (<span style="color: rgb(145, 220, 255);">1 item</span>)</h1>
+    </nav>
+    <main>
+        <section class="payment_info">
+            <div class="choose_address">
+                <div class="addresscl" id="addressclose">
+                    <h2 class="title" id="change1">1 Shipping address</h2>
+                    <div class="add1">
+                        <p><b>Name</b></p>
+                        <p>Address</p>
+                        <a class="link">Add delivery instructions</a>
+                    </div>
+                    <span class="change" id="change2">Change</span>
+                </div>
+                <div class="addressop" id="addressopen">
+                    <h2 class="title" id="titleno">1 Choose a shipping address <span class="change"
+                            id="close1">Close</span></h2>
+                    <div class="add2">
+                        <div class="sec">
+                            <h3 class="title2">Your addresses</h3>
+                            <div class="sec2">
+                                <div class="rad">
+                                    <input type="radio" id="rad_add" checked>
+                                    <label for="rad_add">
+                                        <b>Name</b>
+                                        address, Country
+                                        <a class="link">Edit</a> | <a class="link">Add delivery instructions</a>
+                                    </label>
+                                </div>
+                                <div class="new_add">
+                                    <i class="fa-solid fa-plus" style="color:rgb(211, 211, 211);"></i>
+                                    <a class="link">Add a new address </a>
+                                </div>
+                            </div>
+                            <div class="title2">
+                                <img src="https://m.media-amazon.com/images/G/42/AmazonPickupLocations/locker_orange._CB653018599_.png"
+                                    width="12px">
+                                <h3 style="display:inline;">Your pickup locations</h3>
+                            </div>
+                            <div class="sec2">
+                                <i class="fa-solid fa-plus" style="color:rgb(211, 211, 211);"></i>
+                                <a class="link"> Find a pick-up location near you </a>
+                            </div>
+                        </div>
+                        <div class="use_add">
+                            <button type="button" class="btn1" id="close2">Use this address</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choose_method">
+                <div class="methodop" id="methodopen">
+                    <h2 class="title" id="change21">2 Payment Method</h2>
+                    <div class="add1">
+                        <p><b>Cash on Delivery (COD)</b></p>
+                        <p>EGP 50.00 gift card balance</p>
+                        <b>
+                            <p id="dropinput"><i class="fa-solid fa-chevron-down" style="font-size: 12px;"></i>Add a
+                                gift card or promotion code</p>
+                        </b>
+                        <div id="dropped">
+                            <input type="text" id="text1" placeholder="Enter Code" style="padding: 3px 5px;">
+                            <button type="button" class="btn2">Apply</button>
+                        </div>
+                    </div>
+                    <span class="change" id="change22">Change</span>
+                </div>
+                <div class="methodcl" id="methodclose">
+                    <h2 class="title" id="titleno">2 Choose a payment method<span class="change" id="close21">
+                            Close</span></h2>
+                    <div class="add2">
+                        <div class="sec">
+                            <h3 class="title2">Your available balance</h3>
+                            <div class="sec2">
+                                <input type="checkbox" id="check1" checked>
+                                <label for="check1"> Use your <b>EGP 50.00 gift card balance</b></label>
+                                <label for="text1"><b>
+                                        <p style="padding: 20px 0 0 30px;">Enter a gift card or promotional code</p>
+                                </label></b>
+                                <i class="fa-solid fa-plus" style="color:rgb(211, 211, 211);"></i>
+                                <input type="text" id="text1" placeholder="Enter Code" style="padding: 3px 5px;">
+                                <button type="button" class="btn2">Apply</button>
+                            </div>
+                            <h3 class="title2">Your credit and debit cards</h3>
+                            <div class="sec2">
+                                <i class="fa-solid fa-plus" style="color:rgb(211, 211, 211);"></i>
+                                <img src="https://m.media-amazon.com/images/G/01/payments-portal/r1/add-payment-method/card-logo-compact._CB478583243_.gif"
+                                    width="25px">
+                                <a class="link"> Find a pick-up location near you<i class="fa-solid fa-chevron-right"
+                                        style="font-size: 12px;"></i></a>
+                                <p style="font-size: 12px; display: inline;">nile.eg accepts all major credit cards</p>
+                            </div>
+                            <h3 class="title2">Buy Now, Pay Later</h3>
+                            <div class="sec2">
+                                <input type="radio" id="rad_meth1">
+                                <img src="https://m.media-amazon.com/images/G/42/payments-portal/r1/installments/standalone_installment_4x._CB571940993_.png"
+                                    width="25px">
+                                <label for="rad_meth1" style="padding-left: 15px;">
+                                    <b>Buy Now, Pay Later with valU</b>
+                                    <p class="text-rad">valU Installment payments up to 60 months.</p>
+                                    <p class="text-rad">Please select this payment method only if you are valU
+                                        registered customer. <a class="link">Learn more.</a></p>
+                                </label>
+                            </div>
+                            <h3 class="title2">Other payment options</h3>
+                            <div class="sec2">
+                                <input type="radio" id="rad_meth1">
+                                <label for="rad_meth1" style="padding-left: 15px;">
+                                    <b>Cash on Delivery (COD)</b>
+                                    <p class="text-rad2">Pay by cash on delivery. Non-refundable COD fees of <b>EGP
+                                            12</b> may apply. <a class="link">Learn more.</a></p>
+                                    <p class="text-rad2">Pay online for contactless deliveries.</p>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="use_add">
+                            <button type="button" class="btn1" id="close22">Use this payment method</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choose_offers">
+                <h2 class="title" id="titleno2">3 Offers</h2>
+            </div>
+            <div class="choose_item">
+                <div class="itemtitle" id="itemtitle">
+                    <h2 class="title">4 Review items and shipping</h2>
+                </div>
+                <div class="itemop" id="itemopen">
+                    <h2 class="title" id="change41">4 Items and shipping</h2>
+                    <div class="add1">
+                        <p style="color: green"><b>Delivery date: 10 Sept. 2024</b></p>
+                        <p style="display: flex; padding: 8px 5px 0px 0px;"><img
+                                src="https://m.media-amazon.com/images/I/514Kel0a1xL._AC_AA100_.jpg" width="70px">
+                            Casio FX-991ESPLUS-2WDTV
+                            <br>
+                            Digital Calculator - Black
+                        </p>
+                    </div>
+                    <div class="reveiworder">
+                        <span class="reveiw" id="change42">Reveiw order</span>
+                    </div>
+                </div>
+
+                <div class="itemcl" id="itemclose">
+                    <h2 class="title">4 Review items and shipping</h2>
+                    <div class="add2" id="review1">
+                        <h2 class="title"><i class="fa-solid fa-circle-info" style="color:rgb(27, 140, 144);"></i>Want
+                            to
+                            save time on your next order and go directly to this step when checking out?</h2>
+                        <br>
+                        <input type="checkbox" id="checkthis">
+                        <label fot="checkthis">
+                            Check this box to default to these delivery and payment options in the future.
+                        </label>
+                    </div>
+                    <div class="add2" id="review2">
+                        <p style="color: green"><b>Arriving 10 Sep 2024 </b> <span style="color: rgb(72, 72, 72)">If you
+                                order in the next 14 hours and 33 minutes <a class="link">(Details)</a> Items shipped
+                                from
+                                nile.eg</span></p>
+                        <div class="review2">
+                            <div style="padding: 0px 5px 0px 0px;"><img
+                                    src="https://m.media-amazon.com/images/I/514Kel0a1xL._AC_AA100_.jpg" width="100px">
+                            </div>
+                            <div class="part1">
+                                <b>Casio FX-991ESPLUS-2WDTV Digital Calculator - Black</b>
+                                <br>
+                                <b style="color: rgb(188, 36, 36);">EGP 739.00</b>
+                                <div class="dropdown">
+                                    <div class="input-box"></div>
+                                    <div class="list">
+                                        <input type="radio" name="drop1" id="drop1" class="radio" checked>
+                                        <label for="drop1">
+                                            <span class="name">1</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop2" class="radio">
+                                        <label for="drop2">
+                                            <span class="name">2</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop3" class="radio">
+                                        <label for="drop3">
+                                            <span class="name">3</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop4" class="radio">
+                                        <label for="drop4">
+                                            <span class="name">4</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop5" class="radio">
+                                        <label for="drop5">
+                                            <span class="name">5</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop6" class="radio">
+                                        <label for="drop6">
+                                            <span class="name">6</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop7" class="radio">
+                                        <label for="drop7">
+                                            <span class="name">7</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop8" class="radio">
+                                        <label for="drop8">
+                                            <span class="name">8</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop9" class="radio">
+                                        <label for="drop9">
+                                            <span class="name">9</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop10" class="radio">
+                                        <label for="drop10">
+                                            <span class="name">10</span>
+                                        </label>
+                                        <input type="radio" name="drop1" id="drop11" class="radio">
+                                        <label for="drop11">
+                                            <span class="name">Delete</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <p style="color: rgb(72, 72, 72)">Sold by: Nile.eg</p>
+                                <br>
+                                <p>Gift options not available</p>
+                            </div>
+                            <div class="part2">
+                                <p><b>Choose a delivery option:</b></p>
+                                <input type="radio" id="time">
+                                <label for="time">
+                                    <span style="color: green;"><b>Tomorrow, 12 Sep </span>
+                                    <br>
+                                    FREE</b> Standard delivery
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="add2" id="review3">
+                        <div class="part31">
+                            <button type="button" class="btn4">Place the order</button>
+                        </div>
+                        <div class="part32">
+                            <h2 style="color: rgb(188, 36, 36);">Order total: EGP 701.00</h2>
+                            <p>By placing your order, you agree to Nile's <a class="link">privacy notice</a> and <a
+                                    class="link">conditions of use</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <sections class="payment_box">
+            <div class="sidebox" id="sidebox1">
+                <div class="upperbox">
+                    <div class="sec3">
+                        <button type="button" class="btn3">Use this payment method</button>
+                        <p>Choose a payment method to continue checking out. You'll still have a chance to review and
+                            edit your order before it's final.</p>
+                    </div>
+                    <div class="sec4">
+                        <h2>Order Summary</h2>
+                        <table class="table1">
+                            <tr>
+                                <th>Items:</th>
+                                <td>EGP 739.00</td>
+                            </tr>
+                            <tr>
+                                <th>Shipping & handling:</th>
+                                <td>--</td>
+                            </tr>
+                            <tr>
+                                <th>Total:</th>
+                                <td>--</td>
+                            </tr>
+                            <tr>
+                                <th>Promotion applied:</th>
+                                <td>--</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="sec4">
+                    <table class="table2">
+                        <tr>
+                            <th>Order total:</th>
+                            <td>--</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="use_add">
+                    <a class="link">How are shipping costs calculated?</a>
+                </div>
+            </div>
+            <div class="sidebox" id="sidebox2">
+                <div class="upperbox">
+                    <div class="sec3">
+                        <button type="button" class="btn3">Place your order</button>
+                        <p>By placing your order, you agree to Nile's <a class="link">privacy notice</a> and <a
+                                class="link">conditions of use</a>.</p>
+                    </div>
+                    <div class="sec4">
+                        <h2>Order Summary</h2>
+                        <table class="table1">
+                            <tr>
+                                <th>Items:</th>
+                                <td>EGP 739.00</td>
+                            </tr>
+                            <tr>
+                                <th>Shipping & handling:</th>
+                                <td>EGP 20.00</td>
+                            </tr>
+                            <tr>
+                                <th>Cash on Delivery Fee:</th>
+                                <td>EGP 12.00</td>
+                            </tr>
+                            <tr>
+                                <th>Total:</th>
+                                <td>EGP 771.00</td>
+                            </tr>
+                            <tr>
+                                <th>Promotion applied:</th>
+                                <td>-EGP 20.00</td>
+                            </tr>
+                            <tr>
+                                <th>Gift Card Balance:</th>
+                                <td>-EGP 50.00</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="sec4">
+                    <table class="table2">
+                        <tr>
+                            <th>Order total:</th>
+                            <td>EGP 701.00</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="use_add">
+                    <p>Qualifying offers:</p>
+                    <ul style="margin-top: 0; padding-left: 20px;">
+                        <li>Free Delivery</li>
+                    </ul>
+                    <a class="link">How are shipping costs calculated?</a>
+                    <a class="link">Why didn't I qualify for free shipping?</a>
+                </div>
+            </div>
+        </sections>
+    </main>
+    <footer>
+        <p>*Why has sales tax been applied? <a class="link2">See tax and seller information</a></p>
+        <p>Need help? Check our <a class="link2">Help pages</a> or  <a class="link2">contact us</a></p>
+        <p>For an item sold by nile.eg: When you click the "Place your order" button, we'll send you an email message acknowledging receipt of your order. Your contract to purchase an item will not be complete until we send you an email notifying you that the item has been shipped.</p>
+        <p>You may return new, unopened merchandise in original condition within 15 days of delivery. Exceptions and restrictions apply. See nile.eg's <a class="link2">Returns Policy (Note:ID Verification is mandatory to return an item and get a refund).</a></p>
+        <p>Need to add more items to your order? Continue shopping on the <a class="link2">nile.eg homepage.</a></p>        
+    </footer>
+    <script src="payment.js"></script>
+</body>
+
+</html>
