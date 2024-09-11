@@ -510,7 +510,7 @@ footer h3 {
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
-        z-index: 1000000;
+        z-index: 1;
     }
 
     .sidebar .closebtn {
@@ -604,7 +604,6 @@ footer h3 {
     background-color: white;
     height: 600px;
     width: 45%;
-    z-index: 1000;
     gap: 3rem;
     margin-right: 6rem;
 }
@@ -801,7 +800,7 @@ sup {
     overflow-x: hidden;
     text-decoration: none;
     list-style: none;
-    gap: 13px;
+    gap: 2rem;
     cursor: pointer;
     scroll-behavior: smooth;
 }
