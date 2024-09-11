@@ -82,12 +82,8 @@ nav ul li .ad :hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* Centers the search bar horizontally */
     width: 70%;
-    /* Container takes full width */
     height: 5vh;
-    margin: 1px 0;
-    /* Optional: Adds some space above and below */
 }
 
 /*search bar settings*/
@@ -802,7 +798,7 @@ body {
     }
 
     .selling {
-        height: 330px;
+        height: 300px;
         overflow-y: hidden;
     }
 
