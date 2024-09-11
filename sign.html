@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in |Nile.eg</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="nav.js" defer></script>
+    <link rel="icon" href="Logo.png">
+</head>
+
+<body>
+    <div class="bodyy">
+        <img src="mainLogo1.png">
+        <div class="wrapper">
+
+            <form id="myForm">
+                <h2>Sign in</h2>
+                <div class="input-box">
+                    <p>Email or Mobile Phone Number</p>
+                    <input type="text" id="name" required>
+
+                </div>
+                <div class="input-box">
+                    <div class="label-container">
+                        <p>Password</p>
+                        <a href="">Forgot password?</a>
+                    </div>
+                    <input type="password" id="number" minlength="6" required>
+                </div>
+                <div class="cond">
+                    <p>By signing in, you agree to our Conditions of Use and Privacy Notice.</p>
+                    <div class="container"> <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1">Keep me signed in.</label><br><br>
+                    </div>
+                </div>
+
+
+                <button type="submit" class="btn" value="Submit">Sign in</button>
+                <h6>----------------------------New to Nile?--------------------------------</h6>
+                <button type="button" class="btn1"><a href="register.html">Create your Nile account</a></button>
+
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevents the default form submission
+            window.location.href = "home.html"; // Local page to redirect to
+        });
+    </script>
+</body>
+
+</html>

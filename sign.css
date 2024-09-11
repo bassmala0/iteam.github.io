@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.bodyy img {
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+}
+
+.wrapper {
+    border: 2px solid #d5d4d4;
+    padding: 10px 20px;
+    background: transparent;
+    border-radius: 2px;
+    align-items: center;
+    color: #333;
+    position: relative;
+    width: 75%;
+    height: 70%;
+
+}
+
+#myForm h2 {
+    font-weight: 250;
+    font-size: 30px;
+}
+
+#myForm p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-box {
+    padding: 5px;
+}
+
+.input-box input {
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(74, 74, 74);
+    font-size: 16px;
+    color: #333;
+    padding: 4px 9px 4px 4px;
+}
+
+a {
+    display: block;
+    padding: 5px;
+}
+
+.label-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: rgb(246, 201, 55);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.wrapper .btn1 {
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+h6 {
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.cond {
+    display: block;
+}
+
+button a {
+    color: #000;
+    text-decoration: none;
+}
+
+/*media query settings*/
+@media (max-width: 770px) {
+    body {
+        margin-left: 13%;
+    }
+
+}
