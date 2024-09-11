@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register in |Nile.eg</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="nav.js" defer></script>
+    <link rel="icon" href="Logo.png">
+</head>
+
+<body>
+    <div class="bodyy">
+        <img src="mainLogo1.png">
+        <div class="wrapper">
+            <form id="myForm">
+                <h2>Create Account</h2>
+                <div class="input-box">
+                    <p>Your name</p>
+                    <input type="text" id="name" placeholder="First and last name" required>
+                </div>
+                <div class="input-box">
+                    <p>Mobile number</p>
+                    <div class="label-container">
+                        <select name="tele">
+                            <option>EG +20</option>
+                            <option>ALG +213</option>
+                            <option>SUD +249</option>
+                            <option>SDA +976</option>
+                            <option>EMR +977</option>
+                            <option>LEB +218</option>
+                            <option>OMN +968</option>
+                            <option>MOR +222</option>
+                            <option>RUS +7</option>
+                        </select>
+                        <input type="number" id="number" minlength="6" required>
+                    </div>
+
+                </div>
+                <div class="input-box">
+                    <p>Password</p>
+                    <input type="password" id="pass1" placeholder="At least 6 characters" minlength="6" required>
+                </div>
+                <div class="input-box">
+                    <p>Re-enter password</p>
+                    <input type="password" id="pass2" minlength="6" required>
+                </div>
+
+                <div class="cond">
+                    <p>To varify your number,we will send you a text<br> message with a temporary code. Massage and data
+                        rates may apply.</p>
+                </div>
+                <button type="submit" class="btn" value="Submit">Verify mobile number</button>
+                <h6></h6>
+                <div class="label-container">
+                    <h4>Already have account?</h4> <a href="sign.html">Sign in</a>
+                </div>
+                <div class="cond">
+                    <p>By signing in, you agree to our Conditions of Use and Privacy Notice.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        document.getElementById("myForm").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevents the default form submission
+            window.location.href = "home.html"; // Local page to redirect to
+        });
+    </script>
+
+</body>
+
+</html>
