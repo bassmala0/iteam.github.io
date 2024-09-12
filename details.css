@@ -1176,4 +1176,6 @@ section {
         height: auto;
         padding: 0;
     }
+    .add{
+        display:none;}
 }
