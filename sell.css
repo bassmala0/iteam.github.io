@@ -404,6 +404,43 @@ button:hover, select:hover{
     cursor: pointer;
 }
 
+.PM{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    width: 100%;
+    left: 10%;
+    margin-top: 50px;
+   }
+.Three{
+   display: none;
+   height: 50vh;
+   width: 30%;
+  }
+  .left, .right{
+    display: flex;
+    width: 4%;
+    height: 50vh;
+    border-radius: 2px;
+    border: none;
+    background-color: transparent;
+   }
+   
+   .left:hover, .right:hover{
+    cursor: pointer;
+   }
+
+   .fa-arrow-circle-left, .fa-arrow-circle-right{
+    font-size: 50px;
+    align-self: center;
+    z-index: 50;
+   }
+
+   .fa-arrow-circle-right{
+    position: absolute;
+    right: 0%;
+   }
+
 /*footer settings*/
 footer {
     display: flex;
