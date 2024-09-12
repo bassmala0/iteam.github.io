@@ -140,3 +140,61 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
+//slider!!!!!!!!!!!!!!!!!!!!
+var Sec = document.querySelectorAll('.Three');
+//number of clicks on the right / forward button in the  section
+var clicksForThree = 0;
+//variable to used in condition to switch between making the glyphicon point to the right and to the bottom in the nav bar
+var right = 0;
+//index for the vids that get displayed in the  section
+var indexForThree = 0;
+//display intial three
+for (let index = 0; index < 3; index++) {
+    Sec[index].style.display = 'flex';    
+}
+//default display of slider buttons
+for (let index = 0; index < 2; index++) {
+    document.getElementsByClassName('left')[index].disabled = true;
+    document.getElementsByClassName('left')[index].style.cursor = 'context-menu';
+    document.getElementsByClassName('left')[index].style.opacity = '0.4';
+    document.getElementsByClassName('back')[index].disabled = true;
+    document.getElementsByClassName('back')[index].style.cursor = 'context-menu';
+    document.getElementsByClassName('back')[index].style.opacity = '0.4';
+}
+function threeVidsNext(){
+    indexForThree+=3;
+    clicksForThree++;
+    document.getElementsByClassName('left')[0].disabled = false;
+    document.getElementsByClassName('left')[0].style.cursor = 'pointer';
+    document.getElementsByClassName('left')[0].style.opacity = '1';
+    Sec[indexForThree].style.display = 'flex';
+    Sec[indexForThree+1].style.display = 'flex';
+    Sec[indexForThree+2].style.display = 'flex';
+    Sec[indexForThree-1].style.display = 'none';
+    Sec[indexForThree-2].style.display = 'none';
+    Sec[indexForThree-3].style.display = 'none';
+    if(clicksForThree == 3){
+        document.getElementsByClassName('right')[0].disabled = true;
+        document.getElementsByClassName('right')[0].style.cursor = 'context-menu';
+        document.getElementsByClassName('right')[0].style.opacity = '0.4';
+    }
+}
+//the function that displays the earlier vids in the  section
+function threeVidsPrev(){
+    indexForThree-=3;
+    clicksForThree--;
+    document.getElementsByClassName('right')[0].disabled = false;
+    document.getElementsByClassName('right')[0].style.cursor = 'pointer';
+    document.getElementsByClassName('right')[0].style.opacity = '1';
+    if(!clicksForThree){
+        document.getElementsByClassName('left')[0].disabled = true;
+        document.getElementsByClassName('left')[0].style.cursor = 'context-menu';
+        document.getElementsByClassName('left')[0].style.opacity = '0.4';
+    }
+    Sec[indexForThree].style.display = 'flex';
+    Sec[indexForThree+1].style.display = 'flex';
+    Sec[indexForThree+2].style.display = 'flex';
+    Sec[indexForThree+3].style.display = 'none';
+    Sec[indexForThree+4].style.display = 'none';
+    Sec[indexForThree+5].style.display = 'none';
+}
