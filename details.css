@@ -1158,7 +1158,8 @@ section {
 @media (max-width: 1115px) {
     .det-container {
         display: grid;
-        grid-auto-rows: 0.2fr; 
+        grid-auto-rows: 0.2fr;
+        overflow-x:hidden;
     }
     .stickyimg {
         display: block;
