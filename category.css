@@ -743,7 +743,7 @@ footer h3 {
 {
     position: relative;
     isolation: isolate;
-   
+    z-index: -10;
     border: solid #e9e1e1 0.1rem;
 }
 .phone1 img
