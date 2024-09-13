@@ -404,6 +404,11 @@ button:hover, select:hover{
     cursor: pointer;
 }
 
+.ideas, h1{
+    text-decoration: underline;
+    padding-bottom: 5%;
+}
+
 .PM{
     display: flex;
     justify-content: space-between;
@@ -771,6 +776,7 @@ footer h3 {
     footer select {
         font-size: 10px;
         padding: 5px;
+        width: 15%;
     }
 
 }
