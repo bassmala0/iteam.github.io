@@ -32,21 +32,17 @@
                 <input class="sch" type="search" placeholder="Search Nile.eg" onkeyup="lookUpItem()">
                 <div id="res">
                     <ul id="lookUp">
-                         <li id="keyboard"><a href="product2.html">Wireless Keyboard and Mouse Combo, 2.4G Silent
-                                Cordless Keyboard Mouse
-                                Combo for Windows Chrome Laptop Computer PC Desktop, 106 Keys Full Size with Number Pad,
-                                1600 DPI Optical Mouse (Black)</a></li>
-                        <li id="calc"><a href="product1.html">Casio FX-991ES Plus-2nd Edition Scientific Calculator</a>
-                        </li>
-                        <li id="bat"><a>Toshiba R03KG BP-4TGTE SS Heavy Duty AAA Carbon Zinc Batteries, 1.5 V, 4
-                                Pieces</a></li>
-                        <li id="cable"><a href="product4.html">LDNIO LC441C 65W Fast Charging Data Cable Type-C To
-                                Type-C With 1M Length With
-                                Preventing Overheating Feature - Grey</a></li>
-                        <li id="airpod"><a href="product5.html">Soundcore by Anker P20i True Wireless Earbuds, 10mm
-                                Drivers with Big Bass,
-                                Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset
-                                EQs, Customization (Black)</a></li>
+                        <li id="keyboard"><a>Wireless Keyboard and Mouse Combo, 2.4G Silent Cordless Keyboard Mouse Combo for Windows Chrome Laptop Computer PC Desktop, 106 Keys Full Size with Number Pad, 1600 DPI Optical Mouse (Black)</a></li>
+                        <li id="calc"><a>Casio FX-991ES Plus-2nd Edition Scientific Calculator</a></li>
+                        <li id="bat"><a>Toshiba R03KG BP-4TGTE SS Heavy Duty AAA Carbon Zinc Batteries, 1.5 V, 4 Pieces</a></li>
+                        <li id="cable"><a>LDNIO LC441C 65W Fast Charging Data Cable Type-C To Type-C With 1M Length With Preventing Overheating Feature - Grey</a></li>
+                        <li id="airpod"><a>Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (Black)</a></li>
+                        <li id="skirt"><a>GRACE KARIN Girls Sequin Skirt Sparkly Glitter Long Party Tiered Midi Skirts Size 5-14</a></li>
+                        <li id="hoodie"><a>GAP girls Logo Hoodie Hooded Full Zip Sweatshirt</a></li>
+                        <li id="sweatSet"><a>Toddler Boys Clothes Letter Graphic Sweatshirt Top + Sweatpants 2PC Fall Winter Outfits Pant Set</a></li>
+                        <li id="babyFall"><a>Baby Girl Halloween Outfit Long Sleeve Sweatshirt Newborn Toddler Halloween Baby Clothes Fall Winter Pants Set</a></li>
+                        <li id="babySummer"><a>Baby Girl 3-Pack Bamboo Viscose Bodysuit Short Sleeve Newborn Rompers</a></li>
+                    </ul>
                 </div>
             </li>
             <li id="sch">
@@ -124,7 +120,7 @@
         <div class="stuff"> <!--about + change loc-->
             <button class="abt" onclick="document.getElementById('aboutApply').style.display = 'block';
     document.body.style.overflowY = 'hidden';">add an about</button>
-            <div class="mainn">
+            <div class="mainnn">
                 <h4 class="locate">change your location:</h4>
                 <select onchange="document.getElementsByClassName('b')[0].textContent = this.value">
                     <option>Alexandria</option>
@@ -167,97 +163,99 @@
             </div>
             <div id="aboutApply"><input id="ab" type="search" minlength="1" maxlength="300" placeholder="enter your about"><button onclick="applyAbout()">apply</button></div>
         </div>
-        <div class="mainn" id="mn"> <!--cart pg-->
-            <span><iframe src="cart.html"></iframe></span>
-        </div>
-        <div class="mainn mnn"> <!--review prod-->
-            <img class="revvv" src="https://m.media-amazon.com/images/I/5181ILcyQJL._AC_SX425_.jpg">
-            <p>Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (Black)</p>
-            <i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i>
-        </div>
-        <div class="mainn mnnn show"> <!--activities-->
-            <table>
-                <tr>
-                    <th>insights</th>
-                </tr>
-                <tr>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                </tr>
-                <tr>
-                    <td>helpful votes</td>
-                    <td>reviews</td>
-                    <td>hearts</td>
-                    <td>idea lists</td>
-                    <td>followers</td>
-                </tr>
-                <tr>
-                    <td><em>public</em></td>
-                    <td><em>public</em></td>
-                    <td><em>public</em></td>
-                    <td><em>public</em></td>
-                    <td><em>private</em></td>
-                </tr>
-            </table>
-        </div>
-        <div class="mainn mnnn hide"> <!--activities-->
-            <table>
-                <tr>
-                    <th>insights</th>
-                </tr>
-                <tr>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                </tr>
-                <tr>
-                    <td>helpful votes</td>
-                    <td>reviews</td>
-                    <td>hearts</td>
-                </tr>
-                <tr>
-                    <td><em>public</em></td>
-                    <td><em>public</em></td>
-                    <td><em>public</em></td>
-                </tr>
-                <tr>
-                    <td class="ins">0</td>
-                    <td class="ins">0</td>
-                </tr>
-                <tr>
-                    <td>idea lists</td>
-                    <td>followers</td>
-                </tr>
-                <tr>
-                    <td><em>public</em></td>
-                    <td><em>private</em></td>
-                </tr>
-            </table>
-        </div>
-        <div class="mainn mmnn"> <!--activities-->
-            <table>
-                <tr>
-                    <th>community activity</th>
-                    <th>
-                        <select id="ac">
-                            <option>view: All Activity</option>
-                            <option>view: Oldest</option>
-                            <option>view: Most Recent</option>
-                        </select>    
-                    </th>
-                </tr>
-                <tr>
-                    <td ><em>User has no activity to share</em></td>
-                </tr>
-            </table>
+        <div id="mainMain">
+                <div class="mainn" id="mn"> <!--cart pg-->
+                    <span><iframe src="cart.html"></iframe></span>
+                </div>
+                <div class="mainn mnn"> <!--review prod-->
+                    <img class="revvv" src="https://m.media-amazon.com/images/I/5181ILcyQJL._AC_SX425_.jpg">
+                    <p>Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (Black)</p>
+                    <i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i>
+                </div>
+                <div class="mainn mnnn show"> <!--activities-->
+                <table>
+                    <tr>
+                        <th>insights</th>
+                    </tr>
+                    <tr>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                    </tr>
+                    <tr>
+                        <td>helpful votes</td>
+                        <td>reviews</td>
+                        <td>hearts</td>
+                        <td>idea lists</td>
+                        <td>followers</td>
+                    </tr>
+                    <tr>
+                        <td><em>public</em></td>
+                        <td><em>public</em></td>
+                        <td><em>public</em></td>
+                        <td><em>public</em></td>
+                        <td><em>private</em></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mainn mnnn hide"> <!--activities-->
+                <table>
+                    <tr>
+                        <th>insights</th>
+                    </tr>
+                    <tr>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                    </tr>
+                    <tr>
+                        <td>helpful votes</td>
+                        <td>reviews</td>
+                        <td>hearts</td>
+                    </tr>
+                    <tr>
+                        <td><em>public</em></td>
+                        <td><em>public</em></td>
+                        <td><em>public</em></td>
+                    </tr>
+                    <tr>
+                        <td class="ins">0</td>
+                        <td class="ins">0</td>
+                    </tr>
+                    <tr>
+                        <td>idea lists</td>
+                        <td>followers</td>
+                    </tr>
+                    <tr>
+                        <td><em>public</em></td>
+                        <td><em>private</em></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="mainn mmnn"> <!--activities-->
+                <table>
+                    <tr>
+                        <th>community activity</th>
+                        <th>
+                            <select id="ac">
+                                <option>view: All Activity</option>
+                                <option>view: Oldest</option>
+                                <option>view: Most Recent</option>
+                            </select>    
+                        </th>
+                    </tr>
+                    <tr>
+                        <td ><em>User has no activity to share</em></td>
+                    </tr>
+                </table>
+            </div>
         </div>
     </div>
     <h3 class="recommm">see recommended:</h3>
     <div class="PM">
-        <button class="left" onclick="threeVidsPrev()"><i class='fas fa-arrow-circle-left'></i></button>
+        <button class="left" onclick="threePrev()"><i class='fas fa-arrow-circle-left'></i></button>
           <img src="https://m.media-amazon.com/images/I/41YHfSxRUjL._AC_UF480,600_SR480,600_.jpg" class="Three">
           <img src="https://m.media-amazon.com/images/I/81KgiN2x7pL._AC_SX522_.jpg" class="Three">
           <img src="https://m.media-amazon.com/images/I/61HGwCOtn0L._AC_SX522_.jpg" class="Three">
@@ -270,7 +268,7 @@
           <img src="https://m.media-amazon.com/images/I/31X66-eCXpL._SY445_SX342_QL70_FMwebp_.jpg" class="Three">
           <img src="https://m.media-amazon.com/images/I/31UBQvCweuL._SX300_SY300_QL70_FMwebp_.jpg" class="Three">
           <img src="https://m.media-amazon.com/images/I/910pajFCcPL._AC_SY500_.jpg" class="Three">
-        <button class="right" onclick="threeVidsNext()"><i class='fas fa-arrow-circle-right'></i></button>
+        <button class="right" onclick="threeNext()"><i class='fas fa-arrow-circle-right'></i></button>
     </div>
 
     <footer>
