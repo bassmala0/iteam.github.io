@@ -383,48 +383,60 @@ nav .material-symbols-outlined {
     cursor: pointer;
 }
 
-.mainn, #aboutt{
+.mainnn, #aboutt{
     position: absolute;
-    width: 25%;
     border: 2px solid grey;
+    width: 25%;
     top: 20%;
-    left: -23.9%;
+    left: -22.9%;
+}
+
+#mainMain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    left: 0%;
+}
+
+.mainn{
+    position: relative;
+    width: 49%;
+    border: 2px solid grey;
+    margin-top: 5px;
 }
 
 #mn{
-    top: 35%;
-    left: 0.05%;
-    width: 25.1%;
+    flex-basis: 49%;
+    height: auto;
 }
 
 #mn iframe{
+    position: relative;
     width: 100%;
+    height: 100%;
 }
 
 .mnn{
-    top: 35%;
-    width: 24%;
-    left: 27.25%;
+    flex-basis: 49%;
     text-align: center;
 }
 
 .mnnn{
-    top: 35%;
-    width: 47%;
-    left: 52.05%;
+    flex-basis: 49%;
     justify-content: center;
     text-align: center;
 }
 
 .mmnn{
-    top: 75%;
-    width: 47%;
-    left: 52.05%;
+    flex-basis: 49%;
     justify-content: center;
     text-align: center;
 }
 
-.stuff .mainn select{
+.stuff .mainnn select{
     position: absolute;
     top: 35%;
     right: 5%;
@@ -536,7 +548,7 @@ em{
 }
 .recommm{
     text-decoration: underline;
-    margin-top: 400px;
+    margin-top: 600px;
 }
 .PM{
     display: flex;
@@ -837,18 +849,18 @@ em{
         left: -10%;
     }
 
-    .stuff .mainn{
-        height: 90px;
+    .stuff .mainnn{
+        height: 110px;
     }
 
-    .stuff .mainn select{
+    .stuff .mainnn select{
         top: 80%;
         left: 3%;
     }
 
     #aboutt{
         top: 232%;
-        height: 90px;
+        height: 110px;
     }
 
     #nameApply, #aboutApply{
@@ -867,11 +879,6 @@ em{
         left: 0%;
     }
 
-    .mmnn, .mnnn{
-        left: 55%;
-        width: 45%;
-    }
-
     td{
         font-size: 15px;
     }
@@ -888,6 +895,10 @@ em{
         display: block;
     }
 
+    .mnn{
+        height: fit-content;
+    }
+
     #ac{
         width: 100%;
     }
@@ -900,6 +911,10 @@ em{
         position: relative;
         right: 0%;
         width: 101.7%;
+    }
+
+    .recommm{
+        margin-top: 300px;
     }
 
     footer{
@@ -926,7 +941,7 @@ em{
         height: 40px;
         width: 50px;
     }
-    footer select {
+    footer select{
         font-size: 10px;
         padding: 5px;
         width: 15%;
