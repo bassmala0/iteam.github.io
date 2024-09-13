@@ -43,10 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class='applyyy'>apply</button>
                 <button class='eDit'>edit</button>
             </th>
+            <th><button class="applyy gr">submit</button><i class='fas fa-check-circle'></i></th>
         `;
 
         const tr3 = document.createElement('tr');
-        tr3.innerHTML = "<th colspan='4'><i class='fas fa-plus-circle'></i></th>";
+        tr3.innerHTML = "<th colspan='5'><i class='fas fa-plus-circle'></i></th>";
 
         const picChange = document.createElement('div');
         picChange.classList.add('PicApply');
@@ -91,6 +92,17 @@ document.addEventListener('DOMContentLoaded', () => {
             handleApplyClick(target);
         } else if (target.matches('.eDit')) {
             handleEditClick(target);
+        } else if (target.matches('.gr')) {
+            const inputs = document.querySelectorAll('.in');
+            const picInputs = document.querySelectorAll('.PIC');
+            const allFieldsFilled = Array.from(inputs).every(input => input.value.trim() !== '');
+            const allPicsFilled = Array.from(picInputs).every(input => input.value.trim() !== '');
+            if (allFieldsFilled && allPicsFilled) {
+                target.style.display = 'none';
+                target.parentNode.querySelector('.fa-check-circle').style.display = 'block';
+            } else {
+                alert('please fill all the required fields first');
+            }
         }
     });
 
@@ -144,9 +156,9 @@ document.addEventListener('DOMContentLoaded', () => {
 var Sec = document.querySelectorAll('.Three');
 //number of clicks on the right / forward button in the  section
 var clicksForThree = 0;
-//variable to used in condition to switch between making the glyphicon point to the right and to the bottom in the nav bar
+//variable to used in condition to switch between making the icon point to the right and to the bottom in the nav bar
 var right = 0;
-//index for the vids that get displayed in the  section
+//index for the  that get displayed in the  section
 var indexForThree = 0;
 //display intial three
 for (let index = 0; index < 3; index++) {
@@ -161,7 +173,7 @@ for (let index = 0; index < 2; index++) {
     document.getElementsByClassName('back')[index].style.cursor = 'context-menu';
     document.getElementsByClassName('back')[index].style.opacity = '0.4';
 }
-function threeVidsNext(){
+function threeNext(){
     indexForThree+=3;
     clicksForThree++;
     document.getElementsByClassName('left')[0].disabled = false;
@@ -179,8 +191,8 @@ function threeVidsNext(){
         document.getElementsByClassName('right')[0].style.opacity = '0.4';
     }
 }
-//the function that displays the earlier vids in the  section
-function threeVidsPrev(){
+//the function that displays the earlier  in the  section
+function threePrev(){
     indexForThree-=3;
     clicksForThree--;
     document.getElementsByClassName('right')[0].disabled = false;
