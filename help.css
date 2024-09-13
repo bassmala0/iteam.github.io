@@ -591,6 +591,7 @@ footer h3 {
     footer select {
         font-size: 10px;
         padding: 5px;
+        width: 15%;
     }
 
 }
