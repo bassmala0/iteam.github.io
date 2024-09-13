@@ -28,9 +28,9 @@ let stars = document.querySelectorAll('.fa-star');
 var Sec = document.querySelectorAll('.Three');
 //number of clicks on the right / forward button in the  section
 var clicksForThree = 0;
-//variable to used in condition to switch between making the glyphicon point to the right and to the bottom in the nav bar
+//variable to used in condition to switch between making the icon point to the right and to the bottom in the nav bar
 var right = 0;
-//index for the vids that get displayed in the  section
+//index for the  that get displayed in the  section
 var indexForThree = 0;
 //display intial three
 for (let index = 0; index < 3; index++) {
@@ -45,7 +45,7 @@ for (let index = 0; index < 2; index++) {
     document.getElementsByClassName('back')[index].style.cursor = 'context-menu';
     document.getElementsByClassName('back')[index].style.opacity = '0.4';
 }
-function threeVidsNext(){
+function threeNext(){
     indexForThree+=3;
     clicksForThree++;
     document.getElementsByClassName('left')[0].disabled = false;
@@ -63,8 +63,8 @@ function threeVidsNext(){
         document.getElementsByClassName('right')[0].style.opacity = '0.4';
     }
 }
-//the function that displays the earlier vids in the  section
-function threeVidsPrev(){
+//the function that displays the earlier  in the  section
+function threePrev(){
     indexForThree-=3;
     clicksForThree--;
     document.getElementsByClassName('right')[0].disabled = false;
