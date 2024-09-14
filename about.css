@@ -315,7 +315,7 @@ h1{
 }
 #aboutPG{
     display: flex;
-    width: 101.3%;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center !important;
