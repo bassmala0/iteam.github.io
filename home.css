@@ -664,9 +664,9 @@ img.displaySlide {
 }
 
 .content .products>div {
-    flex: 1 1 calc(25% - 10px);
+    flex: 1 1 calc(20% - 5px);
     box-sizing: border-box;
-    padding: 10px;
+    padding: 6px;
     background-color: #d1cece;
     padding-bottom: 80px;
     border-radius: 5px;
