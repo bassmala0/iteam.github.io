@@ -511,7 +511,7 @@ footer h3 {
 /*media query settings*/
 @media (max-width: 450px) {
     nav{
-        width: 110%;
+        width: 105%;
     }
     nav .imgg a {
         width: 100px;
@@ -645,10 +645,6 @@ footer h3 {
     nav span {
         font-size: 30px;
         cursor: pointer;
-    }
-
-    #aboutPG{
-        align-items: center;
     }
     
     .AllImgs{
