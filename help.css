@@ -123,6 +123,7 @@ nav ul li div#res ul#lookUp li {
     background-color: #f1f1f1;
     color: black;
     padding: 3px;
+    z-index:50;
 }
 
 nav ul li div#res ul#lookUp li:hover {
