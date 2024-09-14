@@ -647,8 +647,9 @@ footer h3 {
         cursor: pointer;
     }
     
-    .AllImgs{
-        flex-basis: 65%;
+    #aboutPG{
+        align-items: center;
+        flex-direction: column;
     }
 
     footer {
