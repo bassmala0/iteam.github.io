@@ -511,7 +511,7 @@ footer h3 {
 /*media query settings*/
 @media (max-width: 450px) {
     nav{
-        width: 105%;
+        width: 110%;
     }
     nav .imgg a {
         width: 100px;
@@ -648,7 +648,7 @@ footer h3 {
     }
 
     .AllImgs{
-        flex-basis: 45%;
+        flex-basis: 55%;
     }
 
     footer {
