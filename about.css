@@ -510,10 +510,6 @@ footer h3 {
 
 /*media query settings*/
 @media (max-width: 450px) {
-    nav{
-        position: relative;
-        right: -5%;
-    }
     nav .imgg a {
         width: 100px;
         height: 70px;
