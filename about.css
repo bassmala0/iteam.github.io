@@ -510,9 +510,6 @@ footer h3 {
 
 /*media query settings*/
 @media (max-width: 450px) {
-    nav{
-        width: 120%;
-    }
     nav .imgg a {
         width: 100px;
         height: 70px;
@@ -530,8 +527,6 @@ footer h3 {
         display: block;
     }
 
-    nav .crt h5,
-    nav .ord,
     nav .sc,
     nav #langButton,
     .slideshow-container {
@@ -567,7 +562,7 @@ footer h3 {
     }
 
     nav #schh {
-        top: 17.55%;
+        top: 28.5%;
         margin-top: 68px;
     }
 
@@ -585,7 +580,7 @@ footer h3 {
 
     nav ul li div#res {
         left: 3%;
-        top: 35%;
+        top: 45%;
         width: 68%;
     }
 
