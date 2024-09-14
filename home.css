@@ -773,7 +773,7 @@ body {
     overflow-x: hidden;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 1200px) {
     .content {
         z-index: 1;
     }
@@ -795,7 +795,6 @@ body {
 
     .content .products>div img {
         margin-left: 10%;
-        margin-top: -10%;
     }
 
     .selling {
@@ -825,8 +824,8 @@ body {
     .H3 {
         font-size: 11px;
     }
-}@media (min-width: 450px){
-.content .products>div {
-    flex: 1 1 calc(25% - 10px);
-    box-sizing: border-box;
-}}
+}@media (min-width: 1000px) {
+    .content .products .sent p {
+        font-size: large;
+    }
+}
