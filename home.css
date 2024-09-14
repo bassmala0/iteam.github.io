@@ -659,7 +659,7 @@ img.displaySlide {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 9px;
+    gap: 10px;
     background-color: white;
 }
 
@@ -700,7 +700,7 @@ img.displaySlide {
     display: flex;
     overflow-x: auto;
     position: relative;
-    gap: 10px;
+    gap: 5px;
     flex-direction: row;
     justify-content: space-between;
     /* Ensures even spacing between the content */
