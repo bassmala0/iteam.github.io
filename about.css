@@ -652,6 +652,19 @@ footer h3 {
         flex-direction: column;
     }
 
+    .Text.nd{
+        padding-left: 0%;
+      }
+    
+      .Text.last{
+        padding-left: 0%;
+      }
+    
+      .Text.mid{
+        padding-left: 0%;
+      }
+
+
     footer {
         width: 115%;
     }
