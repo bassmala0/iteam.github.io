@@ -404,11 +404,12 @@ footer {
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
-    margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
     width: 100%;
     text-align: center;
+    position: relative;
+    left: 0%;
 }
 
 /*links in footer settings*/
@@ -459,7 +460,6 @@ footer #middle {
     flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
-    margin-left: -3px;
 }
 
 footer img {
