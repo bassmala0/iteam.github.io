@@ -773,7 +773,7 @@ body {
     overflow-x: hidden;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .content {
         z-index: 1;
     }
