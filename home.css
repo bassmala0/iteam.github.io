@@ -659,7 +659,7 @@ img.displaySlide {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 5px;
+    gap: 7px;
     background-color: white;
 }
 
