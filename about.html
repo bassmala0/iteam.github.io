@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo.png">
+    <title>About | Nile.eg</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <script src="https://kit.fontawesome.com/4ef4d9d9b8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--<a href="#home">Home</a>-->
+    <nav id="nav">
+        <ul class="n1">
+            <li class="imgg"><a href="home.html"><img src="mainLogo.png" alt=""></a></li>
+            <li class="loc">
+                <span class="material-symbols-outlined">
+                    location_on
+                </span>
+                <h5>Deliver to You</h5>
+                <h5 class="b">Giza</h5>
+            </li>
+            <li class="sc">
+                <h4>All</h4>
+            </li>
+
+            <li class="schh">
+                <input class="sch" type="search" placeholder="Search Nile.eg" onkeyup="lookUpItem()">
+                <div id="res">
+                    <ul id="lookUp">
+                        <li id="keyboard"><a href="product2.html">Wireless Keyboard and Mouse Combo, 2.4G Silent
+                            Cordless Keyboard Mouse
+                            Combo for Windows Chrome Laptop Computer PC Desktop, 106 Keys Full Size with Number Pad,
+                            1600 DPI Optical Mouse (Black)</a></li>
+                    <li id="calc"><a href="product1.html">Casio FX-991ES Plus-2nd Edition Scientific Calculator</a>
+                    </li>
+                    <li id="bat"><a>Toshiba R03KG BP-4TGTE SS Heavy Duty AAA Carbon Zinc Batteries, 1.5 V, 4
+                            Pieces</a></li>
+                    <li id="cable"><a href="product4.html">LDNIO LC441C 65W Fast Charging Data Cable Type-C To
+                            Type-C With 1M Length With
+                            Preventing Overheating Feature - Grey</a></li>
+                    <li id="airpod"><a href="product5.html">Soundcore by Anker P20i True Wireless Earbuds, 10mm
+                            Drivers with Big Bass,
+                            Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset
+                            EQs, Customization (Black)</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="sch">
+                <span id="schh" class="material-symbols-outlined">
+                    search
+                </span>
+
+            </li>
+
+            <li>
+                <button id="langButton">EN</button>
+                <ul id="langDropdownMenu" class="dropdown-content">
+                    <li><input type="radio" id="eng" name="lang" checked>
+                        <label for="eng">English - <b>EN</b></label>
+                    </li>
+                    <li><input type="radio" id="arb" name="lang">
+                        <label for="arb">العربية - <b>AR</b></label>
+                    </li>
+                </ul>
+            </li>
+            <li class="row-container">
+                <div class="row">
+            <li><button id="menuButton">Account & Lists</button>
+                <ul id="menuDropdownMenu" class="dropdown-content">
+                    <li><a href="register.html">Profile</a></li>
+                    <li><a href="register.html">Lists, Reviews & activities</a></li>
+                    <li><a href="register.html">More</a></li>
+                </ul>
+            </li>
+
+            <li class="ord"><a href="profile.html#mn">Orders</a></li>
+            <li class="crt"><a href="cart.html"><span class="material-symbols-outlined">
+                        shopping_cart_checkout
+                    </span>
+                    <h5>Cart</h5>
+                </a></li>
+            </div> <span style="font-size:30px;cursor:pointer" class="opn" onclick="openNav()">&#9776;</span>
+
+            </li>
+            
+
+
+
+        </ul>
+        
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <ul class="n2">
+                <li><a href="register.html">Sign in</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="#services">Today's Deals</a></li>
+                <li><a href="#contact">Prime</a></li>
+                <li><a href="about.html">Your Nile.eg</a></li>
+                <li><a href="#contact">Keep Shopping For</a></li>
+                <li><a href="category.html">Electronics</a></li>
+                <li><a href="sell.html">Sell</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#contact">Grocery</a></li>
+                <li><a href="#services">Fashion</a></li>
+                <li><a href="#contact">Toys & Games</a></li>
+                <li><img src="navAD.jpg" class="ad"></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>About us:</h1>
+    <div id="aboutPG">
+        <div class="us AllImgs">
+            <div class="us EachImg">
+                <img class="image us" onclick="DisplayText(0,0)" src="posterRapunzel.jpg">
+            </div>
+            <div class="us Text last">
+                <p><strong>Jana Ashraf</strong><br><span>worked on:</span><br>Electronics category page<i class='fas fa-mobile-alt'></i><br>cart page <i class='fas fa-shopping-cart'></i><br>
+                  <button onclick=" HideText(0,0)">hide details</button></p>
+            </div>
+        </div>
+        <div class="us AllImgs">
+            <div class="us EachImg">
+                <img class="image us" onclick=" DisplayText(1,1)" src="https://i.pinimg.com/564x/ef/21/9a/ef219a9f23517520f9b6e8700711703f.jpg">
+            </div>
+            <div class="us Text first">
+                  <p><strong>Ayatallah Ashraf</strong><br><span>worked on:</span><br>Footer<br>Search bar search results <span class="material-symbols-outlined">search</span><br>Profile page <i class='fas fa-user-circle'></i><br>Sell page <i class='fas fa-chart-line'></i><br>About page <i class='fas fa-address-card'></i><br> <button onclick="HideText(1,1)">hide details</button></p>
+            </div>
+        </div>
+        <div class="us AllImgs">
+            <div class="us EachImg">
+                <img class="image us"onclick=" DisplayText(2,2)" src="pstRapunzel.jpg">
+            </div>
+            <div class="us Text nd">
+                <p><strong>Basmala Usama</strong><br><span>worked on:</span><br>Navigation bar<br>Home page <i class='fas fa-home'></i><br>Help page <i class='fas fa-question-circle'></i><br>Sign in & registery Pages <i class='fas fa-sign-in-alt'></i><br> <button onclick="HideText(2,2)">hide details</button></p>
+            </div>
+        </div>
+        <div class="us AllImgs">
+            <div class="us EachImg">
+                <img class="image us" onclick="DisplayText(3,3)" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a7c538a4-c1be-4468-8889-4ff715f46adf/d37leje-68bdd446-3714-45a9-af3c-34838e724168.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2E3YzUzOGE0LWMxYmUtNDQ2OC04ODg5LTRmZjcxNWY0NmFkZlwvZDM3bGVqZS02OGJkZDQ0Ni0zNzE0LTQ1YTktYWYzYy0zNDgzOGU3MjQxNjgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ebv46Oh0M65UmPmPx-6_yuIYKI8tvjSXa-oZZ1_dtfs">
+            </div>
+            <div class="us Text mid">
+                <p><strong>Hager Ahmed</strong><br><span>worked on:</span><br>Product details pages <i class='fas fa-file-alt'></i><br>Payment page <i class='fas fa-credit-card'></i><br>
+                  <button onclick=" HideText(3,3)">hide details</button></p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="#nav"><button id="top">Back to top</button></a>
+        <div class="big"><p><strong><h3>Get to Know Us</h3></strong>
+            <a>Careers</a>
+            <br><br><a>Blog</a>
+            <br><br><a>About Nile</a>
+            <br><br><a>Investor Relations</a>
+            <br><br><a>Nile Devices</a>
+            <br><br><a>Nile Science</a></p></div>
+        <div class="big"><p><strong><h3>Make Money with Us</h3></strong>
+            <a>Sell products on Nile</a>
+            <br><br><a>Sell on Nile Business</a>
+            <br><br><a>Sell apps on Nile</a>
+            <br><br><a>Become an Affiliate</a>
+            <br><br><a>Advertise Your Products</a>
+            <br><br><a>Self-Publish with Us</a>
+            <br><br><a>Host a Nile Hub</a>
+            <br><br><a>›See More Make Money with Us</a></p></div>
+        <div class="big"><p><strong><h3>Nile Payment Products</h3></strong>
+            <a>Nile Business Card</a>
+            <br><br><a>Shop with Points</a>
+            <br><br><a>Reload Your Balance</a>
+            <br><br><a>Nile Currency Converter</a></p></div>
+        <div class="big"><p><strong><h3>Let Us Help You</h3></strong>
+            <a>Nile and COVID-19</a>
+            <br><br><a>Your Account</a>
+            <br><br><a>Your Orders</a>
+            <br><br><a>Shipping Rates & Policies</a>
+            <br><br><a>Returns & Replacements</a>
+            <br><br><a>Manage Your Content and Devices</a>
+            <br><br><a>Help</a></p></div><br>
+        <div id="middle">
+            <a href="home.html"><img src="mainLogo.png"></a>
+            <select name="lang">
+                <option value="eng">English</option>
+                <option value="ara">العربية</option>
+                <option value="por">português</option>
+                <option value="ger">Deutsch</option>
+                <option value="span">español</option>
+                <option value="fren">Français</option>
+                <option value="he">תרגום</option>
+                <option value="kor">한국어</option>
+                <option value="zh1">中文 (简体)</option>
+                <option value="zh2">中文 (繁體)</option>
+            </select>
+            <select name="currency">
+                <option value="usd">$ - USD - US Dollar (Default)</option>
+                <option value="krw">₩ - KRW - South Korean Won</option>
+                <option value="eur">€ - EUR - Euro</option>
+                <option value="yen">¥ - JPY - Japanese Yen</option>
+                <option value="egp">EGP - Egyptian Pound</option>
+                <option value="inr">₹ - INR - Indian Rupee</option>
+                <option value="lbp">LBP - Lebanese Pound</option>
+                <option value="qar">QAR - Qatari Riyal</option>
+                <option value="try">TRY - Turkish Lira</option>
+            </select>
+            <select name="location">
+                <option value="United States">United States</option>
+                <option value="South Africa">South Africa</option>
+                <option value="Italy">Italy (Italia)</option>
+                <option value="Japan">Japan (日本)</option>
+                <option value="Egypt">Egypt (مصر)</option>
+                <option value="Spain">Spain (España)</option>
+                <option value="Brazil">Brazil (Brasil)</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Turkey">Turkey (Türkiye)</option>
+            </select>
+        </div>
+        <div id="dark"><div class="seven"><a><h4>Nile Music</h4>
+            Stream millions
+            <br>of songs</a></div>		
+        <div class="seven"><a><h4>Nile Ads</h4>
+            Reach customers
+            <br>wherever they
+            <br>spend their time</a></div>
+        <div class="seven"><a><h4>6pm</h4>
+            Score deals
+            <br>on fashion brands</a></div>
+        <div class="seven"><a><h4>AbeBooks</h4>
+            Books, art
+            <br>& collectibles</a></div>
+        <div class="seven"><a><h4>ACX</h4>
+            Audiobook Publishing
+            <br>Made Easy</a></div>
+        <div class="seven"><a><h4>Sell on Nile</h4>
+            Start a Selling Account</a></div>
+        <div class="seven"><a><h4>Veeqo</h4>
+            Shipping Software
+            <br>Inventory Management</a></div>
+        <div class="seven"><a><h4>Nile Business</h4>
+            Everything For
+            <br>Your Business</a></div>
+        <div class="seven"><a><h4>NileGlobal</h4>
+            Ship Orders
+            <br>Internationally</a></div>
+        <div class="seven"><a><h4>Home Services</h4>
+            Experienced Pros
+            <br>Happiness Guarantee</a></div>
+        <div class="seven"><a><h4>Nile Web Services</h4>
+            Scalable Cloud
+            <br>Computing Services</a></div>
+        <div class="seven"><a><h4>Audible</h4>
+            Listen to Books & Original
+            <br>Audio Performances</a></div>
+        <div class="seven"><a><h4>Box Office Mojo</h4>
+            Find Movie
+            <br>Box Office Data</a></div>
+        <div class="seven"><a><h4>Goodreads</h4>
+            Book reviews
+            <br>& recommendations</a></div>
+        <div class="seven"><a><h4>IMDb</h4>
+            Movies, TV
+            <br>& Celebrities</a></div>
+        <div class="seven"><a><h4>IMDbPro</h4>
+            Get Info Entertainment
+            <br>Professionals Need</a></div>
+        <div class="seven"><a><h4>Kindle Direct Publishing</h4>
+            Indie Digital & Print Publishing
+            <br>Made Easy</a></div>
+        <div class="seven"><a><h4>Prime Video Direct</h4>
+            Video Distribution
+            <br>Made Easy</a></div>
+        <div class="seven"><a><h4>Shopbop</h4>
+            Designer
+            <br>Fashion Brands</a></div>
+        <div class="seven"><a><h4>Woot!</h4>
+            Deals and
+            <br>Shenanigans</a></div>
+        <div class="seven"><a><h4>Zappos</h4>
+            Shoes &
+            <br>Clothing</a></div>
+        <div class="seven"><a><h4>Ring</h4>
+            Smart Home
+            <br>Security Systems</a></div>
+        <div class="seven"><a><h4>eero WiFi</h4>
+            Stream 4K Video
+            <br>in Every Room</a></div>
+        <div class="seven"><a><h4>Blink</h4>
+            Smart Security
+            <br>for Every Home</a></div>
+        <div class="seven"><a><h4>Neighbors App</h4>
+            Real-Time Crime
+            <br>& Safety Alerts</a></div>
+        <div class="seven"><a><h4>Nile Subscription Boxes</h4>
+            Top subscription boxes – right to your door</a></div>
+        <div class="seven"><a><h4>PillPack</h4>
+            Pharmacy Simplified</a></div><br>
+        <div class="end"><a>Conditions of Use</a></div>
+        <div class="end"><a>Privacy Notice</a></div>
+        <div class="end"><a>Consumer Health Data Privacy Disclosure</a></div>
+        <div class="end"><a>Your Ads Privacy Choices</a></div>
+        <p class="end">© 1996-2024, Nile.com, Inc. or its affiliate</p></div>            
+
+    </footer>
+    <script src="nav.js" defer></script>
+    <script src="about.js" defer></script>
+</body>
+
+</html>
