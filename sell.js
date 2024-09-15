@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </th>
                 <th>
                     <button class="applyy gr">submit</button>
-                    <i class='fas fa-check-circle'></i><i class='fas fa-spinner fa-spin'></i>
+                    <i class='fas fa-check-circle'></i>
                 </th>
             </tr>
             <tr>
@@ -144,9 +144,9 @@ document.addEventListener('DOMContentLoaded', () => {
         applyButton.style.display = 'inline';
     }
 
-    function hideAnimation(trgt){
-        trgt.nextElementSibling.nextElementSibling.style.display = 'none';
-        trgt.nextElementSibling.style.display = 'inline';
+    function stopAnim(spinning, check){
+        spinning.style.display = 'none';
+        check.style.display = 'inline';
     }
 
     // Function to validate and handle submit button clicks
@@ -156,7 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const input2 = row.querySelector('.nd');
         const input3 = row.querySelector('.rd');
         const picInput = row.querySelector('.pict');
-
+        const load = document.createElement('i');
+        load.classList.add('fas');
+        load.classList.add('fa-spinner');
+        load.classList.add('fa-spin');
+        
         const areAllFieldsFilled = (field) => field.value.trim() !== '';
 
         const allFieldsFilled1 = areAllFieldsFilled(input1);
@@ -167,8 +171,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (allFieldsFilled1 && allFieldsFilled2 && allFieldsFilled3 && picVal) {
             button.style.display = 'none';        
             button.nextElementSibling.style.display = 'none';
-            button.nextElementSibling.nextElementSibling.style.display = 'inline';
-            setTimeout(hideAnimation, 5000, button);
+            button.nextElementSibling.insertAdjacentElement('afterend', load);
+            setTimeout(stopAnim, 5000, load, button.nextElementSibling);
             input1.nextElementSibling.nextElementSibling.style.display = 'none';
             input2.nextElementSibling.nextElementSibling.style.display = 'none';
             input3.nextElementSibling.nextElementSibling.style.display = 'none';
