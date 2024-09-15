@@ -47,13 +47,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 </th>
             </tr>
             <tr>
-                <th colspan='5'><i class='fas fa-plus-circle'></i></th>
+                <th colspan='5'><i class='fas fa-plus-circle'></i><i class='fas fa-spinner fa-spin'></i></th>
             </tr>
         `;
 
         const picChange = `
             <div class='PicApply'>
-                <input class='PIC' type='search' placeholder='enter the picture\'s link'>
+                <input class='PIC' type='search' placeholder='enter picture link'>
                 <button>apply</button>
             </div>
         `;
@@ -144,6 +144,11 @@ document.addEventListener('DOMContentLoaded', () => {
         applyButton.style.display = 'inline';
     }
 
+    function hideAnimation(trgt){
+        trgt.nextElementSibling.nextElementSibling.style.display = 'none';
+        trgt.nextElementSibling.style.display = 'inline';
+    }
+
     // Function to validate and handle submit button clicks
     function validateAndSubmit(button) {
         const row = button.closest('tr');
@@ -160,8 +165,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const picVal = picInput.src !== '';
 
         if (allFieldsFilled1 && allFieldsFilled2 && allFieldsFilled3 && picVal) {
-            button.style.display = 'none';
-            button.nextElementSibling.style.display = 'inline';
+            button.style.display = 'none';        
+            button.nextElementSibling.style.display = 'none';
+            button.nextElementSibling.nextElementSibling.style.display = 'inline';
+            setTimeout(hideAnimation, 5000, button);
             input1.nextElementSibling.nextElementSibling.style.display = 'none';
             input2.nextElementSibling.nextElementSibling.style.display = 'none';
             input3.nextElementSibling.nextElementSibling.style.display = 'none';
