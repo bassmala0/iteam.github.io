@@ -21,7 +21,7 @@ body {
 nav {
     background-color: transparent;
     padding: 0px 0;
-    width: 101.3%;
+    width: 100%;
     height: 8%;
 }
 
@@ -311,12 +311,19 @@ nav .material-symbols-outlined {
 }
 
 #sell{
-    margin-bottom: 100px;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
-#sell h1{
+.ideas, h1{
     text-decoration: underline;
+    padding-bottom: 5%;
+}
+
+.ideas{
+    padding-top: 10%;
 }
 
 #sell table{
@@ -326,6 +333,15 @@ nav .material-symbols-outlined {
     position: relative;
     border-radius: 20px;
 }    
+
+#sell table, h1{
+    left: 0%;
+}
+
+h1{
+    display: block;
+    width: 100%;
+}
 
 #topHead{
     background-color: #537979;
@@ -346,9 +362,15 @@ button:hover, select:hover{
     cursor: pointer;
 }
 
-.applyPic{
+.applyPic, .gr{
     background-color: #818181;
     border-radius: 3px;
+}
+
+.fas.fa-check-circle{
+    display: none;
+    color: rgb(61, 141, 97);
+    font-size: 30px;
 }
 
 .Pricce{
@@ -404,11 +426,6 @@ button:hover, select:hover{
     cursor: pointer;
 }
 
-.ideas, h1{
-    text-decoration: underline;
-    padding-bottom: 5%;
-}
-
 .PM{
     display: flex;
     justify-content: space-between;
@@ -457,7 +474,7 @@ footer {
     margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
-    width: 101.3%;
+    width: 100%;
     text-align: center;
 }
 
@@ -476,7 +493,7 @@ footer a:hover {
 #top {
     color: antiquewhite;
     cursor: pointer;
-    width: 101.3%;
+    width: 100%;
     background-color: var(--darkButton);
     border: none;
     height: 60px;
@@ -487,7 +504,7 @@ footer a:hover {
 }
 
 a:has(#top) {
-    width: 101.3%;
+    width: 100%;
     color: antiquewhite;
 }
 
@@ -506,7 +523,7 @@ footer .big {
 footer #middle {
     justify-content: baseline;
     align-content: center;
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
     margin-left: -3px;
@@ -536,7 +553,7 @@ footer select:hover {
 
 /*the darker half of footer settings settings*/
 footer #dark {
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     background-color: var(--darkBottom);
     display: flex;
     flex-wrap: wrap;
@@ -694,10 +711,19 @@ footer h3 {
         cursor: pointer;
     }
 
+    #sell{
+        width: 100%;
+        font-size: 15px;
+    }
+
     #sell table th{
         font-size: 10px;
         min-width: 50px;
-        max-width: 110px;
+    }
+
+    .applyy{
+        width: 100%;
+        text-align: center;
     }
 
     .PicApply button, .PIC{
@@ -731,7 +757,7 @@ footer h3 {
 
     .applyyy{
         text-align: center;
-        width: 50%;
+        width: 60%;
     }
 
     .applyPic{
