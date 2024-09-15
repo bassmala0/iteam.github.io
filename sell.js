@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 </th>
                 <th>
                     <button class="applyy gr">submit</button>
-                    <i class='fas fa-check-circle'></i>
+                    <i class='fas fa-check-circle'></i><i class='fas fa-spinner fa-spin'></i>
                 </th>
             </tr>
             <tr>
-                <th colspan='5'><i class='fas fa-plus-circle'></i><i class='fas fa-spinner fa-spin'></i></th>
+                <th colspan='5'><i class='fas fa-plus-circle'></i></th>
             </tr>
         `;
 
