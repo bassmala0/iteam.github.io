@@ -2,11 +2,11 @@
 :root{
     --darkest: #62b6cb;
     --darker: #1b4965;
-    --mainDark: #1b4965;
+    --mainDark: #023047;
     --darkButton: #537979;
-    --darkButtonHover: #618a6f;
-    --darkTop: #1b4965;
-    --darkBottom: rgb(29, 96, 97);
+    --darkButtonHover: #4e7c5e;
+    --darkTop: #023047;
+    --darkBottom: #1b4965;
 }
 /*main body settings*/
 body {
