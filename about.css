@@ -1,5 +1,5 @@
 /*colors*/
-:root {
+:root{
     --darkest: #62b6cb;
     --darker: #1b4965;
     --mainDark: #023047;
@@ -8,7 +8,6 @@
     --darkTop: #023047;
     --darkBottom: #1b4965;
 }
-
 /*main body settings*/
 body {
     font-family: 'Amazon Ember';
@@ -16,7 +15,6 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
-
 /*nav settings*/
 nav {
     background-color: transparent;
@@ -85,7 +83,6 @@ nav ul li .ad :hover {
     margin: 1px 0;
     /* Optional: Adds some space above and below */
 }
-
 /*search bar settings*/
 nav ul li .sch {
     margin-top: 5px;
@@ -94,9 +91,8 @@ nav ul li .sch {
     position: relative;
     margin-right: 5%;
 }
-
 /*search results settings*/
-nav ul li div#res {
+nav ul li div#res{
     display: flex;
     flex-wrap: wrap !important;
     flex-direction: column;
@@ -106,40 +102,30 @@ nav ul li div#res {
     width: 51.2%;
     z-index: 5000;
 }
-
-nav ul#lookUp {
+nav ul#lookUp{
     display: none;
     flex-direction: column;
     padding: 3px;
     width: 90%;
 }
-
-nav ul li div#res ul#lookup {
+nav ul li div#res ul#lookup{
     flex-wrap: wrap !important;
     text-align: center;
 }
-
-nav ul li div#res ul#lookUp li {
+nav ul li div#res ul#lookUp li{
     width: 98%;
     background-color: #f1f1f1;
     color: black;
     padding: 3px;
 }
-
-nav ul li div#res ul#lookUp li:hover {
+nav ul li div#res ul#lookUp li:hover{
     cursor: pointer;
     background-color: #c0bebe;
 }
-
-.hide {
-    display: none;
-}
-
-nav ul li div#res ul#lookUp li a {
+nav ul li div#res ul#lookUp li a{
     color: #000;
     text-decoration: none;
 }
-
 nav #schh {
     background-color: rgb(246, 201, 55);
     padding: 6px 8px;
@@ -152,7 +138,7 @@ nav #schh {
 nav #sch {
     margin-top: 0px;
 }
-
+/*#81b8a8*/
 nav .sc h4 {
     background-color: #818181;
     padding: 10px 16px;
@@ -400,7 +386,6 @@ img.us {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
@@ -408,8 +393,6 @@ footer {
     font-family: 'Amazon Ember';
     width: 100%;
     text-align: center;
-    position: relative;
-    left: 0%;
 }
 
 /*links in footer settings*/
@@ -448,7 +431,7 @@ a:has(#top) {
 
 /*the light part under the back to top button settings*/
 footer .big {
-    flex-basis: 24%;
+    flex-basis: 25%;
     border-bottom: 100px solid var(--darkTop);
     border-top: 35px solid var(--darkTop);
 }
@@ -460,6 +443,7 @@ footer #middle {
     flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
+    margin-left: -3px;
 }
 
 footer img {
@@ -526,6 +510,8 @@ footer h3 {
     .closebtn {
         display: block;
     }
+
+    nav .crt h5,
     nav .ord,
     nav .sc,
     nav #langButton,
@@ -562,8 +548,10 @@ footer h3 {
     }
 
     nav #schh {
-        top: 20.75%;
+        top: 19.5%;
+        height: 4%;
         margin-top: 68px;
+        z-index: 7;
     }
 
     nav .crt {
@@ -573,15 +561,19 @@ footer h3 {
     }
 
     nav #sch {
-        margin-left: 80%;
+        margin-left: 79%;
         margin-bottom: -18%;
-        margin-top: 20%;
+        margin-top: 23%;
     }
 
     nav ul li div#res {
         left: 3%;
-        top: 45%;
+        top: 36.5%;
         width: 68%;
+    }
+
+    #lookUp {
+        z-index: 4;
     }
 
     .sidebar {
@@ -590,11 +582,11 @@ footer h3 {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: var(--mainDark);
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
-        z-index: 1;
+        z-index: 5;
     }
 
     .sidebar .closebtn {
@@ -661,23 +653,24 @@ footer h3 {
       }
 
 
-    footer {
-        width: 115%;
-    }
-
-    footer .seven {
+      footer .seven {
         display: none;
     }
 
     footer .big {
-        left: 0%;
-        flex-basis: 24%;
+        position: relative;
+        left: 2%;
+        flex-basis: 22%;
         border-bottom: 0px;
     }
 
     footer .end {
         border-top: 25px solid var(--darkBottom);
-        flex-basis: 24%;
+        flex-basis: 23%;
+    }
+
+    footer p.end{
+        flex-basis: 100%;
     }
 
     footer img {
