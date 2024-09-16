@@ -25,7 +25,7 @@ body {
 nav {
     background-color: transparent;
     padding: 0px 0;
-    width: 101.3%;
+    width: 100%;
     height: 8%;
 }
 
@@ -311,14 +311,12 @@ nav .material-symbols-outlined {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
-    margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
-    width: 101.3%;
+    width: 100%;
     text-align: center;
 }
 
@@ -337,7 +335,7 @@ footer a:hover {
 #top {
     color: antiquewhite;
     cursor: pointer;
-    width: 101.3%;
+    width: 100%;
     background-color: var(--darkButton);
     border: none;
     height: 60px;
@@ -348,7 +346,7 @@ footer a:hover {
 }
 
 a:has(#top) {
-    width: 101.3%;
+    width: 100%;
     color: antiquewhite;
 }
 
@@ -367,7 +365,7 @@ footer .big {
 footer #middle {
     justify-content: baseline;
     align-content: center;
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
     margin-left: -3px;
@@ -397,7 +395,7 @@ footer select:hover {
 
 /*the darker half of footer settings settings*/
 footer #dark {
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     background-color: var(--darkBottom);
     display: flex;
     flex-wrap: wrap;
@@ -405,12 +403,12 @@ footer #dark {
 }
 
 footer .seven {
-    flex-basis: 14%;
+    flex-basis: 13%;
     border-bottom: 50px solid var(--darkBottom);
 }
 
 footer .end {
-    flex-basis: 25%;
+    flex-basis: 24%;
 }
 
 footer .end,
@@ -475,7 +473,8 @@ footer h3 {
     }
 
     nav #schh {
-        top: 17.55%;
+        top: 16.5%;
+        height: 6%;
         margin-top: 68px;
     }
 
@@ -493,7 +492,7 @@ footer h3 {
 
     nav ul li div#res {
         left: 3%;
-        top: 35%;
+        top: 33.5%;
         width: 68%;
     }
 
@@ -559,16 +558,13 @@ footer h3 {
         cursor: pointer;
     }
 
-    footer {
-        width: 110%;
-    }
-
     footer .seven {
         display: none;
     }
 
     footer .big {
-        left: 0%;
+        position: relative;
+        left: 2%;
         flex-basis: 22%;
         border-bottom: 0px;
     }
@@ -576,6 +572,10 @@ footer h3 {
     footer .end {
         border-top: 25px solid var(--darkBottom);
         flex-basis: 23%;
+    }
+
+    footer p.end{
+        flex-basis: 100%;
     }
 
     footer img {
