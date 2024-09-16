@@ -594,7 +594,6 @@ footer h3 {
         display: block;
     }
 
-    nav .crt h5,
     nav .ord,
     nav .sc,
     nav #langButton,
@@ -719,6 +718,7 @@ footer h3 {
     #sell table th{
         font-size: 10px;
         min-width: 50px;
+        max-width: 60px;
     }
 
     .applyy{
