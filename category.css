@@ -473,7 +473,7 @@ footer h3 {
     }
 
     nav #schh {
-        top: 19%;
+        top: 16.5%;
         margin-top: 68px;
     }
 
@@ -491,7 +491,7 @@ footer h3 {
 
     nav ul li div#res {
         left: 3%;
-        top: 36%;
+        top: 34.5%;
         width: 68%;
     }
 
@@ -562,7 +562,8 @@ footer h3 {
     }
 
     footer .big {
-        left: 0%;
+        position: relative;
+        left: 2%;
         flex-basis: 22%;
         border-bottom: 0px;
     }
