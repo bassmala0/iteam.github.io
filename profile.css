@@ -19,7 +19,7 @@ body {
 nav {
     background-color: transparent;
     padding: 0px 0;
-    width: 101.3%;
+    width: 100%;
     height: 8%;
 }
 
@@ -314,7 +314,7 @@ nav .material-symbols-outlined {
     border: 5px solid #000;
     height: 120%;
     width: 20%;
-    left: 40%;
+    left: 42%;
     top: 40%;
 }
 
@@ -325,7 +325,7 @@ nav .material-symbols-outlined {
     border: none;
     font-size: 20px;
     font-weight: 600;
-    left: 0.8%;
+    left: 2.5%;
     margin-top: 28px;
 }
 
@@ -371,7 +371,7 @@ nav .material-symbols-outlined {
 .stuff, .abt{
     position: relative;
     top: -8%;
-    left: 24%;
+    left: 24.5%;
 }
 
 .abt{
@@ -389,6 +389,10 @@ nav .material-symbols-outlined {
     width: 25%;
     top: 20%;
     left: -22.9%;
+}
+
+#aboutt{
+    margin-left: 5px;
 }
 
 #mainMain{
@@ -588,100 +592,115 @@ em{
     right: 0%;
    }
 
-            /*footer settings*/
-            footer{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            background-color: var(--mainDark);
-            color: gray;
-            margin-bottom: -8px;
-            margin-left: -8px;
-            font-size: 15px;
-            font-family: 'Amazon Ember';
-            width: 101.3% !important;
-            text-align: center;
-            }
-            /*links in footer settings*/
-            footer a{
-                text-decoration: none;
-            }
-            footer a:hover{
-                cursor: pointer;
-                color: aliceblue;
-                text-decoration: underline;
-            }
-            /*back to top button settings*/
-            #top{
-                color: antiquewhite;
-                cursor: pointer;
-                width: 101.3%;
-                background-color: var(--darkButton);
-                border: none;
-                height: 60px;
-            }
-            #top:hover{
-                background-color: var(--darkButtonHover);
-            }
-            a:has(#top){
-                width: 101.3%;
-                color: antiquewhite;
-            }
-            #top a:hover{
-                text-decoration: none;
-            }
-            /*the light part under the back to top button settings*/
-            footer .big{
-                flex-basis: 25%;
-                border-bottom: 100px solid var(--darkTop);
-                border-top: 35px solid var(--darkTop);
-            }
-            /*the lang / currency / location settings*/
-            footer #middle{
-                justify-content: baseline;
-                align-content: center;
-                flex-basis: 101.3%;
-                border-top: 1px solid gray;
-                height: 100px;
-                margin-left: -3px;
-            }
-            footer img{
-                position: absolute;
-                left: 29%;
-                margin-top: -10px;
-                z-index: 2;
-                height: 60px;
-                width: 90px;
-            }
-            footer select{
-                right: -7%;
-                position: relative;
-                background-color: var(--mainDark);
-                border-radius: 5px;
-                color: antiquewhite;
-                padding: 10px;
-            }
-            footer select:hover{
-                cursor: pointer;
-            }
-            /*the darker half of footer settings settings*/
-            footer #dark{
-                flex-basis: 101.3%;
-                background-color: var(--darkBottom);
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-            footer .seven{
-                flex-basis: 14%;
-                border-bottom: 50px solid var(--darkBottom);
-            }
-            footer .end{
-                flex-basis: 25%;
-            }
-            footer .end,footer h4,footer h3{
-                color: antiquewhite;
-            }
+/*footer settings*/
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--mainDark);
+    color: gray;
+    margin-bottom: -8px;
+    font-size: 15px;
+    font-family: 'Amazon Ember';
+    width: 100%;
+    text-align: center;
+}
+
+/*links in footer settings*/
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+/*back to top button settings*/
+#top {
+    color: antiquewhite;
+    cursor: pointer;
+    width: 100%;
+    background-color: var(--darkButton);
+    border: none;
+    height: 60px;
+}
+
+#top:hover {
+    background-color: var(--darkButtonHover);
+}
+
+a:has(#top) {
+    width: 100%;
+    color: antiquewhite;
+}
+
+#top a:hover {
+    text-decoration: none;
+}
+
+/*the light part under the back to top button settings*/
+footer .big {
+    flex-basis: 25%;
+    border-bottom: 100px solid var(--darkTop);
+    border-top: 35px solid var(--darkTop);
+}
+
+/*the lang / currency / location settings*/
+footer #middle {
+    justify-content: baseline;
+    align-content: center;
+    flex-basis: 100%;
+    border-top: 1px solid gray;
+    height: 100px;
+    margin-left: -3px;
+}
+
+footer img {
+    position: absolute;
+    left: 29%;
+    margin-top: -10px;
+    z-index: 2;
+    height: 60px;
+    width: 90px;
+}
+
+footer select {
+    right: -7%;
+    position: relative;
+    background-color: var(--mainDark);
+    border-radius: 5px;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+footer select:hover {
+    cursor: pointer;
+}
+
+/*the darker half of footer settings settings*/
+footer #dark {
+    flex-basis: 100%;
+    background-color: var(--darkBottom);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer .seven {
+    flex-basis: 13%;
+    border-bottom: 50px solid var(--darkBottom);
+}
+
+footer .end {
+    flex-basis: 24%;
+}
+
+footer .end,
+footer h4,
+footer h3 {
+    color: antiquewhite;
+}
             
 /*media query settings*/
 @media (max-width: 450px) {
@@ -739,8 +758,10 @@ em{
     }
 
     nav #schh {
-        top: 17.55%;
+        top: 19.5%;
+        height: 4%;
         margin-top: 68px;
+        z-index: 7;
     }
 
     nav .crt {
@@ -750,14 +771,19 @@ em{
     }
 
     nav #sch {
-        margin-left: 80%;
+        margin-left: 79%;
         margin-bottom: -18%;
-        margin-top: 20%;
+        margin-top: 23%;
     }
-    nav ul li div#res{
+
+    nav ul li div#res {
         left: 3%;
-        top: 35%;
+        top: 36.5%;
         width: 68%;
+    }
+
+    #lookUp {
+        z-index: 4;
     }
 
     .sidebar {
@@ -766,11 +792,11 @@ em{
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: var(--mainDark);
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
-        z-index: 1;
+        z-index: 5;
     }
 
     .sidebar .closebtn {
@@ -918,23 +944,24 @@ em{
         margin-top: 300px;
     }
 
-    footer {
-        width: 115%;
-    }
-
     footer .seven {
         display: none;
     }
 
     footer .big {
-        left: 0%;
-        flex-basis: 24%;
+        position: relative;
+        left: 2%;
+        flex-basis: 22%;
         border-bottom: 0px;
     }
 
     footer .end {
         border-top: 25px solid var(--darkBottom);
-        flex-basis: 24%;
+        flex-basis: 23%;
+    }
+
+    footer p.end{
+        flex-basis: 100%;
     }
 
     footer img {
@@ -950,4 +977,5 @@ em{
         padding: 5px;
         width: 15%;
     }
+
 }
