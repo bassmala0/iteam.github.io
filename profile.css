@@ -918,34 +918,36 @@ em{
         margin-top: 300px;
     }
 
-    footer{
-        width: 110%;
+    footer {
+        width: 115%;
     }
-    footer .seven{
+
+    footer .seven {
         display: none;
     }
-    footer .big{
+
+    footer .big {
         left: 0%;
-        flex-basis: 22%;
+        flex-basis: 24%;
         border-bottom: 0px;
-        width: 110%;
     }
-    footer .end{
+
+    footer .end {
         border-top: 25px solid var(--darkBottom);
-        flex-basis: 23%;
-        width: 110%;
+        flex-basis: 24%;
     }
-    footer img{
+
+    footer img {
         left: 0%;
         position: relative;
         margin-top: 30px;
         height: 40px;
         width: 50px;
     }
-    footer select{
+
+    footer select {
         font-size: 10px;
         padding: 5px;
         width: 15%;
     }
-
 }
