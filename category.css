@@ -157,12 +157,14 @@ nav .sc h4 {
     padding: 10px 16px;
     display: block;
     margin: 4px 0px;
-    margin-right: -18px;
+    margin-right: -22px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    height: 60%;
     position: relative;
     z-index: 2;
-
+    top: -3%;
+    left: -10%;
 }
 
 nav ul li h5 {
@@ -474,6 +476,7 @@ footer h3 {
 
     nav #schh {
         top: 16.5%;
+        height: 6%;
         margin-top: 68px;
     }
 
@@ -571,6 +574,10 @@ footer h3 {
     footer .end {
         border-top: 25px solid var(--darkBottom);
         flex-basis: 23%;
+    }
+
+    footer p.end{
+        flex-basis: 100%;
     }
 
     footer img {
