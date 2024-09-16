@@ -25,7 +25,7 @@ body {
 nav {
     background-color: transparent;
     padding: 0px 0;
-    width: 101.3%;
+    width: 100%;
     height: 8%;
 }
 
@@ -311,14 +311,12 @@ nav .material-symbols-outlined {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
-    margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
-    width: 101.3%;
+    width: 100%;
     text-align: center;
 }
 
@@ -337,7 +335,7 @@ footer a:hover {
 #top {
     color: antiquewhite;
     cursor: pointer;
-    width: 101.3%;
+    width: 100%;
     background-color: var(--darkButton);
     border: none;
     height: 60px;
@@ -348,7 +346,7 @@ footer a:hover {
 }
 
 a:has(#top) {
-    width: 101.3%;
+    width: 100%;
     color: antiquewhite;
 }
 
@@ -358,7 +356,7 @@ a:has(#top) {
 
 /*the light part under the back to top button settings*/
 footer .big {
-    flex-basis: 25%;
+    flex-basis: 24%;
     border-bottom: 100px solid var(--darkTop);
     border-top: 35px solid var(--darkTop);
 }
@@ -367,7 +365,7 @@ footer .big {
 footer #middle {
     justify-content: baseline;
     align-content: center;
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
     margin-left: -3px;
@@ -397,7 +395,7 @@ footer select:hover {
 
 /*the darker half of footer settings settings*/
 footer #dark {
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     background-color: var(--darkBottom);
     display: flex;
     flex-wrap: wrap;
@@ -405,12 +403,12 @@ footer #dark {
 }
 
 footer .seven {
-    flex-basis: 14%;
+    flex-basis: 13%;
     border-bottom: 50px solid var(--darkBottom);
 }
 
 footer .end {
-    flex-basis: 25%;
+    flex-basis: 24%;
 }
 
 footer .end,
@@ -557,10 +555,6 @@ footer h3 {
     nav span {
         font-size: 30px;
         cursor: pointer;
-    }
-
-    footer {
-        width: 110%;
     }
 
     footer .seven {
