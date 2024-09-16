@@ -773,7 +773,7 @@ footer h3 {
     }
 
     footer {
-        width: 110%;
+        width: 115%;
     }
 
     footer .seven {
@@ -782,13 +782,13 @@ footer h3 {
 
     footer .big {
         left: 0%;
-        flex-basis: 22%;
+        flex-basis: 24%;
         border-bottom: 0px;
     }
 
     footer .end {
         border-top: 25px solid var(--darkBottom);
-        flex-basis: 23%;
+        flex-basis: 24%;
     }
 
     footer img {
@@ -804,5 +804,4 @@ footer h3 {
         padding: 5px;
         width: 15%;
     }
-
 }
