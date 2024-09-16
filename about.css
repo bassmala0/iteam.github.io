@@ -526,7 +526,7 @@ footer h3 {
     .closebtn {
         display: block;
     }
-
+    nav .ord,
     nav .sc,
     nav #langButton,
     .slideshow-container {
@@ -562,7 +562,7 @@ footer h3 {
     }
 
     nav #schh {
-        top: 28.5%;
+        top: 20.75%;
         margin-top: 68px;
     }
 
