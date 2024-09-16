@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    let n = 0;
     let clk = 0;
 
     // Function to handle the addition of new rows
@@ -110,12 +109,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const input = document.querySelectorAll('.in')[index];
         const changeButton = document.querySelectorAll('.eDit')[index];
         const span = document.querySelectorAll('.newProd')[index].querySelector('span');
-        const select = document.querySelectorAll('select.cuRRency')[index - 1 - (2 * n)];
+        const select = input.previousElementSibling;
 
         if (index % 3 === 1) {
             select.style.display = 'none';
             span.textContent = `${select.value} ${input.value}`;
-            n++;
         } else {
             span.textContent = input.value;
         }
@@ -133,8 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const applyButton = document.querySelectorAll('.applyyy')[index];
 
         if (index % 3 === 1) {
-            n--;
-            const select = document.querySelectorAll('select.cuRRency')[index - 1 - (2 * n)];
+            const select = input.previousElementSibling;
             select.style.display = 'inline';
         }
 
