@@ -356,7 +356,7 @@ a:has(#top) {
 
 /*the light part under the back to top button settings*/
 footer .big {
-    flex-basis: 24%;
+    flex-basis: 25%;
     border-bottom: 100px solid var(--darkTop);
     border-top: 35px solid var(--darkTop);
 }
