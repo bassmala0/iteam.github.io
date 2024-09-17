@@ -701,7 +701,7 @@ footer h3 {
     }
 
     #sell{
-        width: 100%;
+        width: 95%;
         font-size: 15px;
     }
 
@@ -762,6 +762,10 @@ footer h3 {
         width: 30%;
     }
 
+    .PM{
+        width: 95%;
+    }
+    
     footer .seven {
         display: none;
     }
