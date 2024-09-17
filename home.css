@@ -571,6 +571,14 @@ footer h3 {
         border-bottom: 0px;
     }
 
+    footer {
+        width: 103.2%;
+    }
+
+    footer #top {
+        width: 98%;
+    }
+
     footer .end {
         border-top: 25px solid var(--darkBottom);
         flex-basis: 23%;
