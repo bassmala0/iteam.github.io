@@ -688,7 +688,7 @@ footer h3 {
 /*media query settings*/
 @media (max-width: 450px) {
     .main {
-        width: 109.2%;
+        width: 100%;
     }
 
     .miniPar {
