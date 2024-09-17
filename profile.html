@@ -111,7 +111,7 @@
                 <li><img src="navAD.jpg" class="ad"></li>
             </ul>
         </div>
-    </nav>
+    </nav> <!--add an about-->
     <div id="profile">
         <div class="pfp">
             <img src="pfp.png">
@@ -121,10 +121,10 @@
             <div id="aboutt"><p></p></div>
         </div>
     </div>
+    <button class="abt" onclick="document.getElementById('aboutApply').style.display = 'block';
+    document.body.style.overflowY = 'hidden';">add an about</button>
     <div class="details">
         <div class="stuff"> <!--about + change loc-->
-            <button class="abt" onclick="document.getElementById('aboutApply').style.display = 'block';
-    document.body.style.overflowY = 'hidden';">add an about</button>
             <div class="mainnn">
                 <h4 class="locate">change your location:</h4>
                 <select onchange="document.getElementsByClassName('b')[0].textContent = this.value">
