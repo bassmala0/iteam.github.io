@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /*colors*/
 :root{
     --darkest: #62b6cb;
@@ -494,10 +498,6 @@ footer h3 {
 
 /*media query settings*/
 @media (max-width: 450px) {
-    nav{
-        width:80%;
-    }
-    
     nav .imgg a {
         width: 100px;
         height: 70px;
