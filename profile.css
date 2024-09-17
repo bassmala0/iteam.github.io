@@ -142,16 +142,16 @@ nav #schh {
 nav #sch {
     margin-top: 0px;
 }
-/*#81b8a8*/
+
 nav .sc h4 {
     background-color: #818181;
     padding: 10px 16px;
     display: block;
     margin: 4px 0px;
-    margin-right: -20px;
+    margin-right: -22px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 27%;
+    height: 60%;
     position: relative;
     z-index: 2;
     top: -3%;
@@ -220,7 +220,7 @@ nav .material-symbols-outlined {
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 6;
+    z-index: 1;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -345,29 +345,47 @@ nav .material-symbols-outlined {
     border: 0.5px solid black;
 }
 
-#nam, #ab, #nameApply button, #aboutApply button{
+#nameApply button, #aboutApply button{
     position: relative;
     top: 40%;
+}
+
+#aboutApply button{
+    left: 20%;
+}
+
+#nameApply button{
+    left: 0%;
 }
 
 #nameApply, #aboutApply{
     display: none;
     position: fixed;
     z-index: 500;
-    top: 30%;
-    left: 28%;
+    top: 40%;
+    left: 27%;
     background-color: #f9f9f9;
-    height: 100px;
+    height: 300px;
     border: 100px solid #f9f9f9;
-    width: 400px;
+    width: 600px;
     border: 1px solid #c0bebe;
     border-radius: 5px;
     padding: 100px;
 }
 
-#ab, #aboutApply button{
+#ab, #nam{
+    position: relative;
+    top: 40%;
+}
+
+#ab{
     left: 20%;
 }
+
+#nam{
+    left: 0%;
+}
+
 .stuff{
     height: 200px;
 }
@@ -762,10 +780,9 @@ footer h3 {
     }
 
     nav #schh {
-        top: 19.5%;
-        height: 4%;
+        top: 16.5%;
+        height: 6%;
         margin-top: 68px;
-        z-index: 7;
     }
 
     nav .crt {
@@ -849,12 +866,12 @@ footer h3 {
     }
 
     #profile .pfp img{
-        left: 28%;
+        left: 31%;
         width: 40%;
     }
 
-    #profile .pfp h1{
-        left: 41%;
+    #profile .pfp #hold{
+        left: -1%;
     }
 
     .details{
@@ -895,19 +912,24 @@ footer h3 {
     }
 
     #nameApply, #aboutApply{
-        height: 25px;
+        height: 100px;
         border:25px solid #f9f9f9;
-        width: 100px;
-        left: 8%;
+        width: 200px;
+        left: 20%;
     }
 
     #nam, #ab{
-        left: -40%;
-        top: 35%;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        width: 80%;
     }
 
     #nameApply button, #aboutApply button{
-        left: 0%;
+        position: absolute;
+        top: 40%;
+        left: 80%;
+        width: 21%;
     }
 
     td{
