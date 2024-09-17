@@ -1138,6 +1138,7 @@ section {
     gap: 100px;
     cursor: pointer;
     scroll-behavior: smooth;
+    overflow-y: hidden;
 }
 
 .card-wrapper .item {
