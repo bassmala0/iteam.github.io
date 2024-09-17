@@ -3,15 +3,16 @@
 }
 
 /*colors*/
-:root{
+:root {
     --darkest: #62b6cb;
     --darker: #1b4965;
     --mainDark: #023047;
     --darkButton: #537979;
-    --darkButtonHover: #4e7c5e;
+    --darkButtonHover: #023047;
     --darkTop: #023047;
     --darkBottom: #1b4965;
 }
+
 /*main body settings*/
 body {
     font-family: 'Amazon Ember';
@@ -19,6 +20,7 @@ body {
     padding: 0;
     overflow-x: hidden;
 }
+
 /*nav settings*/
 nav {
     background-color: transparent;
@@ -80,13 +82,10 @@ nav ul li .ad :hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* Centers the search bar horizontally */
     width: 70%;
-    /* Container takes full width */
     height: 5vh;
-    margin: 1px 0;
-    /* Optional: Adds some space above and below */
 }
+
 /*search bar settings*/
 nav ul li .sch {
     margin-top: 5px;
@@ -95,8 +94,9 @@ nav ul li .sch {
     position: relative;
     margin-right: 5%;
 }
+
 /*search results settings*/
-nav ul li div#res{
+nav ul li div#res {
     display: flex;
     flex-wrap: wrap !important;
     flex-direction: column;
@@ -104,32 +104,41 @@ nav ul li div#res{
     left: 21.6%;
     top: 6.5%;
     width: 51.2%;
-    z-index: 5000;
 }
-nav ul#lookUp{
+
+nav ul#lookUp {
     display: none;
     flex-direction: column;
     padding: 3px;
     width: 90%;
 }
-nav ul li div#res ul#lookup{
+
+nav ul li div#res ul#lookup {
     flex-wrap: wrap !important;
     text-align: center;
 }
-nav ul li div#res ul#lookUp li{
+
+nav ul li div#res ul#lookUp li {
     width: 98%;
     background-color: #f1f1f1;
     color: black;
     padding: 3px;
 }
-nav ul li div#res ul#lookUp li:hover{
+
+nav ul li div#res ul#lookUp li:hover {
     cursor: pointer;
     background-color: #c0bebe;
 }
-nav ul li div#res ul#lookUp li a{
+
+.hide {
+    display: none;
+}
+
+nav ul li div#res ul#lookUp li a {
     color: #000;
     text-decoration: none;
 }
+
 nav #schh {
     background-color: rgb(246, 201, 55);
     padding: 6px 8px;
@@ -248,54 +257,56 @@ nav .material-symbols-outlined {
 .closebtn {
     display: none;
 }
+
 /*font settings*/
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 200;
-    src: url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 200;
     font-style: italic;
-    src: url(https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
-    src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
     font-style: italic;
-    src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff) format("woff")
-}
-            @font-face {
-    font-family: 'Amazon Ember';
-    font-weight: 500;
-    src: url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/XIvhNCZAsrT80Wz.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 500;
+    src: url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/XIvhNCZAsrT80Wz.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'Amazon Ember';
+    font-weight: 500;
     font-style: italic;
-    src: url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/YAEPfuhs1l-argd.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/YAEPfuhs1l-argd.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
     font-weight: 700;
-    src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff) format("woff")
 }
 
 @font-face {
     font-family: 'Amazon Ember';
     font-style: italic;
     font-weight: 700;
-    src: url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff) format("woff")
+    src: url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2) format("woff2"), url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff) format("woff")
 }
 
 #profile{
@@ -723,7 +734,7 @@ footer h4,
 footer h3 {
     color: antiquewhite;
 }
-            
+
 /*media query settings*/
 @media (max-width: 450px) {
     nav .imgg a {
@@ -799,7 +810,7 @@ footer h3 {
 
     nav ul li div#res {
         left: 3%;
-        top: 36.5%;
+        top: 33.5%;
         width: 68%;
     }
 
