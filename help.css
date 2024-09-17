@@ -82,12 +82,8 @@ nav ul li .ad :hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* Centers the search bar horizontally */
     width: 70%;
-    /* Container takes full width */
     height: 5vh;
-    margin: 1px 0;
-    /* Optional: Adds some space above and below */
 }
 
 /*search bar settings*/
@@ -161,7 +157,7 @@ nav .sc h4 {
     padding: 10px 16px;
     display: block;
     margin: 4px 0px;
-    margin-right: -20px;
+    margin-right: -22px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     height: 60%;
@@ -317,11 +313,9 @@ nav .material-symbols-outlined {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
-    margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
     width: 100%;
@@ -411,12 +405,12 @@ footer #dark {
 }
 
 footer .seven {
-    flex-basis: 14%;
+    flex-basis: 13%;
     border-bottom: 50px solid var(--darkBottom);
 }
 
 footer .end {
-    flex-basis: 25%;
+    flex-basis: 24%;
 }
 
 footer .end,
@@ -450,6 +444,11 @@ footer h3 {
     nav #langButton,
     .slideshow-container {
         display: none;
+    }
+
+    nav .n1,
+    nav .n2 {
+        width: 100%;
     }
 
     /* Keep vertical stacking for the overall nav */
@@ -495,7 +494,7 @@ footer h3 {
 
     nav ul li div#res {
         left: 3%;
-        top: 36.5%;
+        top: 33.5%;
         width: 68%;
     }
 
@@ -561,10 +560,6 @@ footer h3 {
         cursor: pointer;
     }
 
-    footer #top {
-        width: 98%;
-    }
-
     footer .seven {
         display: none;
     }
@@ -581,7 +576,7 @@ footer h3 {
         flex-basis: 23%;
     }
 
-    footer p.end {
+    footer p.end{
         flex-basis: 100%;
     }
 
