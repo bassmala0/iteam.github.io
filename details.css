@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 /*colors*/
 :root {
     --darkest: #62b6cb;
