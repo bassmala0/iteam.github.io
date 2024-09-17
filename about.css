@@ -468,7 +468,7 @@ footer select:hover {
     cursor: pointer;
 }
 
-/*the darker half of footer settings settings*/
+/*the darker half of footer settings*/
 footer #dark {
     flex-basis: 100%;
     background-color: var(--darkBottom);
