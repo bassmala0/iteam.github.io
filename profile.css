@@ -397,35 +397,61 @@ nav .material-symbols-outlined {
     left: 0%;
 }
 
-.stuff{
-    height: 200px;
+#aboutt{
+    display: none;
+    text-wrap: wrap !important;
+    overflow-wrap: anywhere;
+    position: absolute;
+    border: 2px solid grey;
+    width: 69.4%;
+    top: 228%;
+    left: 28%;
+    padding: 3px;
+    height: 90px;
 }
 
-.stuff, .abt{
+.details{
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.stuff{
     position: relative;
     top: -8%;
     left: 24.5%;
+    height: 200px;
 }
 
 .abt{
     background-color: #818181;
     border-radius: 3px;
+    position: absolute;
+    top: 81.3%;
+    left: 49%;
 }
 
 .abt:hover{
     cursor: pointer;
 }
 
-.mainnn, #aboutt{
+.mainnn{
     position: absolute;
     border: 2px solid grey;
     width: 25%;
-    top: 20%;
-    left: -22.9%;
+    top: 10%;
+    left: -22%;
+    height: 90px;
 }
 
-#aboutt{
-    margin-left: 5px;
+.locate{
+    text-decoration: underline;
+}
+
+.mainnn select{
+    position: absolute;
+    right: 0%;
+    top: 30%;
 }
 
 #mainMain{
@@ -440,14 +466,15 @@ nav .material-symbols-outlined {
 }
 
 .mainn{
-    position: relative;
-    width: 45%;
-    border: 2px solid grey;
-    margin-top: 5px;
+    border: 2px solid #818181;
+    margin-top: 10px;
 }
 
 #mn{
+    position: relative;
     flex-basis: 45%;
+    border: 2px solid grey;
+    margin-top: 5px;
     height: auto;
 }
 
@@ -461,45 +488,6 @@ nav .material-symbols-outlined {
     flex-basis: 45%;
     text-align: center;
 }
-
-.mnnn{
-    flex-basis: 45%;
-    justify-content: center;
-    text-align: center;
-}
-
-.mmnn{
-    flex-basis: 45%;
-    justify-content: center;
-    text-align: center;
-}
-
-.stuff .mainnn select{
-    position: absolute;
-    top: 35%;
-    right: 5%;
-    border-radius: 5px;
-}
-
-.locate{
-    text-decoration: underline;
-    top: 40%;
-    left: -20%;
-}
-
-#aboutt{
-    display: none;
-    text-wrap: wrap !important;
-    overflow-wrap: anywhere;
-    top: 240%;
-    left: 27%;
-    background-color: transparent;
-    position: absolute;
-    width: 70%;
-    height: 62px;
-    border: 2px solid grey;
-}
-
 .revvv{
     position: relative;
     height: 50%;
@@ -515,9 +503,14 @@ nav .material-symbols-outlined {
     cursor: pointer;
 }
 
+.mnnn, .mmnn{
+    flex-basis: 45%;
+    justify-content: center;
+    text-align: center;
+}
+
 table{
     border-collapse: collapse;
-    width: 100%;
     text-align: left;
 }
 
@@ -529,10 +522,16 @@ select:hover{
     cursor: pointer;
 }
 
+.mainn .mmnn select{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    border-radius: 5px;
+}
+
 .mmnn th{
     border-bottom: 2px solid gray;
 }
-
 
 .mmnn td{
     height: 100px;
@@ -555,35 +554,6 @@ em{
     display: none;
 }
 
-.details{
-    position: relative;
-    height: 400px;
-}
-
-.con{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 1em;
-    align-items: center;
-    margin-top: 200px;
-}
-
-.con .set{
-    background-color: #c0bebe;
-    border: 3px solid black;
-    border-radius: 10px;
-    padding: 2px;
-}
-
-.con .set:hover{
-    cursor: pointer;
-    border: 3px solid gray;
-    background-color: #f1f1f1;
-}
-
-.con .sm{
-    padding: 12px;
-}
 .recommm{
     text-decoration: underline;
     margin-top: 600px;
@@ -875,6 +845,11 @@ footer h3 {
         font-size: 30px;
         cursor: pointer;
     }
+    
+    #profile{
+        position: relative;
+        right: 0%;
+    }
 
     #profile .pfp img{
         left: 31%;
@@ -885,43 +860,9 @@ footer h3 {
         left: -1%;
     }
 
-    .details{
-        height: 600px;
-    }
-
-    .con{
-        margin-top: 100px;
-    }
-
-    .con .set{
-        height: 250px;
-        text-wrap: pretty;
-        text-align: center;
-    }
-
-    .abt{
-        left: 15%;
-        top: 5%;
-    }
-
     #hold .nm{
         left: -10%;
     }
-
-    .stuff .mainnn{
-        height: 110px;
-    }
-
-    .stuff .mainnn select{
-        top: 80%;
-        left: 3%;
-    }
-
-    #aboutt{
-        top: 232%;
-        height: 110px;
-    }
-
     #nameApply, #aboutApply{
         height: 100px;
         border:25px solid #f9f9f9;
@@ -943,6 +884,43 @@ footer h3 {
         width: 21%;
     }
 
+    .abt{
+        position: absolute;
+        top: 103%;
+        left: 40%;
+    }
+
+    .details{
+        height: 500px;
+        margin-top: 10px;
+        left: 0.5%;
+        width: 98%;
+    }
+    
+    .stuff .mainnn{
+        height: 90px;
+        top: 28%;
+    }
+
+    #aboutt{
+        width: 68.4%;
+        height: 90px;
+        top: 250%;
+    }
+
+    .stuff .mainnn select{
+        position: absolute;
+        margin-top: 40%;
+        left: 0%;
+        height: fit-content;
+        width: 90%;
+    }
+
+    .mainn{
+        border: 2px solid #818181;
+        margin-top: 20px;
+    }
+
     td{
         font-size: 15px;
     }
@@ -959,21 +937,15 @@ footer h3 {
         display: block;
     }
 
+    #mn{
+        margin-top: 20px;
+    }
+
     .mnn{
         height: fit-content;
     }
 
     #ac{
-        width: 100%;
-    }
-
-    .details{
-        left: 0.5%;
-    }
-
-    #profile{
-        position: relative;
-        right: 0%;
         width: 100%;
     }
 
