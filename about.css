@@ -495,7 +495,7 @@ footer h3 {
 /*media query settings*/
 @media (max-width: 450px) {
     nav{
-        width: 95.5%;
+        width: 90%;
     }
     
     nav .imgg a {
