@@ -318,11 +318,9 @@ nav .material-symbols-outlined {
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     background-color: var(--mainDark);
     color: gray;
     margin-bottom: -8px;
-    margin-left: -8px;
     font-size: 15px;
     font-family: 'Amazon Ember';
     width: 100%;
@@ -374,7 +372,7 @@ footer .big {
 footer #middle {
     justify-content: baseline;
     align-content: center;
-    flex-basis: 101.3%;
+    flex-basis: 100%;
     border-top: 1px solid gray;
     height: 100px;
     margin-left: -3px;
@@ -412,12 +410,12 @@ footer #dark {
 }
 
 footer .seven {
-    flex-basis: 14%;
+    flex-basis: 13%;
     border-bottom: 50px solid var(--darkBottom);
 }
 
 footer .end {
-    flex-basis: 25%;
+    flex-basis: 24%;
 }
 
 footer .end,
