@@ -142,16 +142,16 @@ nav #schh {
 nav #sch {
     margin-top: 0px;
 }
-/*#81b8a8*/
+
 nav .sc h4 {
     background-color: #818181;
     padding: 10px 16px;
     display: block;
     margin: 4px 0px;
-    margin-right: -20px;
+    margin-right: -22px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 27%;
+    height: 60%;
     position: relative;
     z-index: 2;
     top: -3%;
@@ -552,10 +552,9 @@ footer h3 {
     }
 
     nav #schh {
-        top: 19.5%;
-        height: 4%;
+        top: 16.5%;
+        height: 6%;
         margin-top: 68px;
-        z-index: 7;
     }
 
     nav .crt {
