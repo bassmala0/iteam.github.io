@@ -494,10 +494,6 @@ footer h3 {
 
 /*media query settings*/
 @media (max-width: 450px) {
-    nav{
-        width: 94%;
-    }
-    
     nav .imgg a {
         width: 100px;
         height: 70px;
@@ -641,7 +637,6 @@ footer h3 {
     #aboutPG{
         align-items: center;
         flex-direction: column;
-        width: 70%;
     }
 
     .Text.nd{
@@ -654,10 +649,6 @@ footer h3 {
     
       .Text.mid{
         padding-left: 0%;
-      }
-
-      footer{
-          width:99%;
       }
     
       footer .seven {
