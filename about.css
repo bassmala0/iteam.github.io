@@ -656,7 +656,10 @@ footer h3 {
         padding-left: 0%;
       }
 
-
+      footer{
+          width:95.5%;
+      }
+    
       footer .seven {
         display: none;
     }
