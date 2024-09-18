@@ -853,12 +853,18 @@ footer h3 {
         right: 0%;
     }
 
+    #profile .pfp{        
+        height: 130px;
+    }
+
     #profile .pfp img{
         left: 31%;
+        height: 100%;
         width: 40%;
     }
 
     #profile .pfp #hold{
+        top: 115%;
         left: -1%;
     }
 
@@ -888,7 +894,7 @@ footer h3 {
 
     .abt{
         position: absolute;
-        top: 100%;
+        top: 85%;
         left: 40%;
     }
 
