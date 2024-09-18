@@ -369,6 +369,10 @@ nav .material-symbols-outlined {
     left: 0%;
 }
 
+#nameApply button:hover , #aboutApply button:hover {
+    cursor: pointer;
+}
+
 #nameApply, #aboutApply{
     display: none;
     position: fixed;
@@ -884,7 +888,7 @@ footer h3 {
 
     .abt{
         position: absolute;
-        top: 103%;
+        top: 100%;
         left: 40%;
     }
 
@@ -897,11 +901,16 @@ footer h3 {
 
     #aboutt{
         top: 230%;
+        height: 120px;
+    }
+
+    .mainnn{
+        height: 120px;
     }
 
     .mainnn select{
         position: absolute;
-        margin-top: 40%;
+        margin-top: 60%;
         left: 0%;
         height: fit-content;
         width: 90%;
