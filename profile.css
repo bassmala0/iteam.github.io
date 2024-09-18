@@ -404,7 +404,7 @@ nav .material-symbols-outlined {
     position: absolute;
     border: 2px solid grey;
     width: 69.4%;
-    top: 228%;
+    top: 225%;
     left: 28%;
     padding: 3px;
     height: 90px;
@@ -414,13 +414,6 @@ nav .material-symbols-outlined {
     position: relative;
     height: 400px;
     width: 100%;
-}
-
-.stuff{
-    position: relative;
-    top: -8%;
-    left: 24.5%;
-    height: 200px;
 }
 
 .abt{
@@ -439,8 +432,8 @@ nav .material-symbols-outlined {
     position: absolute;
     border: 2px solid grey;
     width: 25%;
-    top: 10%;
-    left: -22%;
+    top: -4%;
+    left: 2.5%;
     height: 90px;
 }
 
@@ -529,10 +522,6 @@ select:hover{
     border-radius: 5px;
 }
 
-.mmnn th{
-    border-bottom: 2px solid gray;
-}
-
 .mmnn td{
     height: 100px;
 }
@@ -552,6 +541,15 @@ em{
 
 .hide{
     display: none;
+}
+
+table th{
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+
+.mnnn td{
+    width: 25%;
 }
 
 .recommm{
@@ -845,7 +843,7 @@ footer h3 {
         font-size: 30px;
         cursor: pointer;
     }
-    
+
     #profile{
         position: relative;
         right: 0%;
@@ -896,19 +894,12 @@ footer h3 {
         left: 0.5%;
         width: 98%;
     }
-    
-    .stuff .mainnn{
-        height: 90px;
-        top: 28%;
-    }
 
     #aboutt{
-        width: 68.4%;
-        height: 90px;
-        top: 250%;
+        top: 230%;
     }
 
-    .stuff .mainnn select{
+    .mainnn select{
         position: absolute;
         margin-top: 40%;
         left: 0%;
@@ -950,7 +941,7 @@ footer h3 {
     }
 
     .recommm{
-        margin-top: 300px;
+        margin-top: 400px;
     }
 
     footer .seven {
