@@ -896,7 +896,6 @@ footer h3 {
         position: absolute;
         top: 85%;
         left: 40%;
-        margin-bottom: 30%;
     }
 
     .details{
@@ -907,7 +906,7 @@ footer h3 {
     }
 
     #aboutt{
-        top: 250%;
+        top: 230%;
         height: 120px;
     }
 
