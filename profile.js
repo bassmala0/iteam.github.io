@@ -7,11 +7,19 @@ function applyName() {
     document.getElementById('nameApply').style.display = 'none';
 }
 
+let click = 0;
+
 function applyAbout() {
     document.body.style.overflowY = 'auto';
     let tempAb = document.getElementById('aboutt');
-    tempAb.innerHTML = document.getElementById('ab').value;
-    tempAb.style.display = 'block';
+    if (document.getElementById('ab').value.trim() !== '') {
+        tempAb.innerHTML = document.getElementById('ab').value;
+        tempAb.style.display = 'block';
+        click++;
+    }
+    if (click) {
+        document.querySelector('.abt').innerHTML = 'edit your about';
+    }
     document.getElementById('aboutApply').style.display = 'none';
 }
 
