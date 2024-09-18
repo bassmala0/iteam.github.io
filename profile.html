@@ -123,8 +123,7 @@
     </div>
     <button class="abt" onclick="document.getElementById('aboutApply').style.display = 'block';
     document.body.style.overflowY = 'hidden';">add an about</button>
-    <div class="details">
-        <div class="stuff"> <!--about + change loc-->
+    <div class="details"><!--about + change loc-->
             <div class="mainnn">
                 <h4 class="locate">change your location:</h4>
                 <select onchange="document.getElementsByClassName('b')[0].textContent = this.value">
@@ -166,8 +165,7 @@
                     <option>Turkey</option>
                 </select>
             </div>
-            <div id="aboutApply"><input id="ab" type="search" minlength="1" maxlength="300" placeholder="enter your about"><button onclick="applyAbout()">apply</button></div>
-        </div>
+        <div id="aboutApply"><input id="ab" type="search" minlength="1" maxlength="300" placeholder="enter your about"><button onclick="applyAbout()">apply</button></div>
         <div id="mainMain">
                 <div class="mainn" id="mn"> <!--cart pg-->
                     <span><iframe src="cart.html"></iframe></span>
@@ -178,10 +176,10 @@
                     <p>Soundcore by Anker P20i True Wireless Earbuds, 10mm Drivers with Big Bass, Bluetooth 5.3, 30H Long Playtime, Water-Resistant, 2 Mics for AI Clear Calls, 22 Preset EQs, Customization (Black)</p>
                     <i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i><i class='far fa-star'></i>
                 </div>
-                <div class="mainn mnnn show"> <!--activities-->
+            <div class="mainn mnnn show"> <!--activities-->
                 <table>
                     <tr>
-                        <th>insights</th>
+                        <th colspan="5">insights</th>
                     </tr>
                     <tr>
                         <td class="ins">0</td>
@@ -209,7 +207,7 @@
             <div class="mainn mnnn hide"> <!--activities-->
                 <table>
                     <tr>
-                        <th>insights</th>
+                        <th colspan="3">insights</th>
                     </tr>
                     <tr>
                         <td class="ins">0</td>
@@ -253,7 +251,7 @@
                         </th>
                     </tr>
                     <tr>
-                        <td ><em>User has no activity to share</em></td>
+                        <td><em>User has no activity to share</em></td>
                     </tr>
                 </table>
             </div>
