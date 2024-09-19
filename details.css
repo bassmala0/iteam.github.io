@@ -1139,6 +1139,7 @@ section {
     cursor: pointer;
     scroll-behavior: smooth;
     overflow-y: hidden;
+    text-overflow: ellipsis;
 }
 
 .card-wrapper .item {
@@ -1163,7 +1164,6 @@ section {
 .card-list .card-item {
     font-size: 15px;
     padding: 20px;
-    text-overflow: ellipsis;
 }
 
 @media (max-width: 1115px) {
