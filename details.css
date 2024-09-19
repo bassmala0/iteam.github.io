@@ -1138,8 +1138,10 @@ section {
     gap: 100px;
     cursor: pointer;
     scroll-behavior: smooth;
-    overflow-y: hidden;
-    text-overflow: ellipsis;
+}
+
+.card-wrapper .card-list::-webkit-scrollbar {
+    display: none;
 }
 
 .card-wrapper .item {
