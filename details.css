@@ -1108,6 +1108,7 @@ section {
     font-size: 1rem;
     color: rgb(4, 109, 95);
     font-weight: 600;
+    text-overflow: ellipsis;
 }
 
 .card-wrapper .item i {
@@ -1133,6 +1134,7 @@ section {
     grid-auto-columns: 300px;
     margin: 0px;
     overflow-x: hidden;
+    overflow-y: hidden;
     text-decoration: none;
     list-style: none;
     gap: 100px;
