@@ -1165,6 +1165,10 @@ section {
     padding: 20px;
 }
 
+.pro-name{
+    text-overflow: ellipsis;
+}
+
 @media (max-width: 1115px) {
     .det-container {
         display: grid;
