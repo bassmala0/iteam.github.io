@@ -711,9 +711,8 @@ footer h3 {
         font-size: 10px;
         min-width: 50px;
         word-wrap: break-word;
-        overflow-wrap: break-word;
-        word-break: break-all;
-        text-wrap: wrap;
+        overflow-wrap: anywhere;
+        text-overflow: ellipsis;
     }
 
     .applyy{
