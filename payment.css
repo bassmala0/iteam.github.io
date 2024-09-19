@@ -524,4 +524,8 @@ footer a {
         display: flex;
         width: 80%;
     }
+    .payment_info {
+        margin: 15px;
+        width: calc(100% - 30px);
+    }
 }
