@@ -712,6 +712,8 @@ footer h3 {
         min-width: 50px;
         word-wrap: break-word;
         overflow-wrap: break-word;
+        word-break: break-all;
+        text-wrap: wrap;
     }
 
     .applyy{
