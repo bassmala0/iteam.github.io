@@ -1163,9 +1163,6 @@ section {
 .card-list .card-item {
     font-size: 15px;
     padding: 20px;
-}
-
-.pro-name{
     text-overflow: ellipsis;
 }
 
