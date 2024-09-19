@@ -710,6 +710,9 @@ footer h3 {
     #sell table th{
         font-size: 10px;
         min-width: 50px;
+    }
+
+    #sell table th.newProd{
         word-wrap: break-word;
         overflow-wrap: anywhere;
         text-overflow: ellipsis;
