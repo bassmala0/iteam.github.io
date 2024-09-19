@@ -1140,10 +1140,6 @@ section {
     scroll-behavior: smooth;
 }
 
-.card-wrapper .card-list::-webkit-scrollbar {
-    display: none;
-}
-
 .card-wrapper .item {
     position: absolute;
     top: 0;
