@@ -68,6 +68,9 @@ close22Btn.addEventListener('click', () => {
     item2.style.display = "none";
     itemTitle.style.display = "none";
     item1.style.display = "flex";
+    close22Btn.addEventListener('click', () => {
+        window.location.href = "home.html";
+    });
 });
 change42Btn.addEventListener('click', () => {
     itemTitle.display = "none";
