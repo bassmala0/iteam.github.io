@@ -710,7 +710,8 @@ footer h3 {
     #sell table th{
         font-size: 10px;
         min-width: 50px;
-        text-wrap: wrap;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
     }
 
     .applyy{
