@@ -709,7 +709,7 @@ footer h3 {
 
     #sell table th{
         font-size: 10px;
-        width: 50px;
+        min-width: 50px;
         text-wrap: wrap;
     }
 
