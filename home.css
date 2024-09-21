@@ -832,3 +832,13 @@ body {
         font-size: large;
     }
 }
+@media (max-width: 450px) {
+    .content .products>div {
+        flex: 1 1 calc(50% - 10px);
+    }
+
+    .content img {
+        margin-bottom: 10%;
+    }
+}
+
