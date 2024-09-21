@@ -791,7 +791,7 @@ body {
     }
 
     .content .products>div {
-        flex: 1 1 calc(50% - 10px);
+        flex: 1 1 calc(25% - 10px);
         padding-bottom: 15%;
     }
 
