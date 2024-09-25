@@ -792,7 +792,7 @@ body {
 
     .content .products>div {
         flex: 1 1 calc(25% - 10px);
-        padding-bottom: 15%;
+        padding-bottom: 5%;
     }
 
     .content .products>div img {
@@ -809,6 +809,16 @@ body {
         height: 40%;
     }
 
+
+}@media (min-width: 1000px) {
+    .content .products .sent p {
+        font-size: large;
+    }
+}
+@media (max-width: 450px) {
+    .content .products>div {
+        flex: 1 1 calc(50% - 10px);
+    }
     .detail h5 {
         color: #000;
         font-size: 9px;
@@ -827,16 +837,6 @@ body {
     .H3 {
         font-size: 11px;
     }
-}@media (min-width: 1000px) {
-    .content .products .sent p {
-        font-size: large;
-    }
-}
-@media (max-width: 450px) {
-    .content .products>div {
-        flex: 1 1 calc(50% - 10px);
-    }
-
     .content img {
         margin-bottom: 10%;
     }
