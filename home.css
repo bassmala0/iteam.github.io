@@ -781,13 +781,9 @@ body {
     }
 
     .content .products .sent p {
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         font-size: 10px;
         font-weight: bold;
-    }
-
-    .content .products a {
-        display: none;
     }
 
     .content .products>div {
@@ -797,11 +793,11 @@ body {
 
     .content .products>div img {
         margin-left: 10%;
-        padding-bottom: 3%;
+        padding-bottom: 8%;
     }
 
     .selling {
-        height: 300px;
+        height: 350px;
         overflow-y: hidden;
     }
 
@@ -840,5 +836,10 @@ body {
     .content img {
         margin-bottom: 10%;
     }
+    
+    .content .products a {
+        display: none;
+    }
+
 }
 
