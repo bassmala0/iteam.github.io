@@ -473,6 +473,7 @@ nav .material-symbols-outlined {
     border: 2px solid grey;
     margin-top: 5px;
     height: auto;
+    overflow-y: hidden;
 }
 
 #mn iframe{
